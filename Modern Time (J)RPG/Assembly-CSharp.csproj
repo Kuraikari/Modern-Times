@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MusicController.cs" />
      <Compile Include="Assets\Progressbar.cs" />
      <Compile Include="Assets\Scripts\Abillity.cs" />
      <Compile Include="Assets\Scripts\AttackAbillity.cs" />
@@ -62,6 +63,7 @@
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
      <None Include="Assets\Tiled2Unity\Imported\schoolbuilding.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\classroom.tiled2unity.xml" />
+     <None Include="Assets\Plugins\MusicManager\TestScene\Resources\Music_Licence.txt" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\schoolground.tiled2unity.xml" />
@@ -79,6 +81,10 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7686D1D2-58F3-F58B-A4D7-1A6A80C0B5E9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

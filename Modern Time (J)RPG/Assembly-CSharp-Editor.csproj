@@ -63,6 +63,7 @@
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
      <None Include="Assets\Tiled2Unity\Imported\schoolbuilding.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\classroom.tiled2unity.xml" />
+     <None Include="Assets\Plugins\MusicManager\TestScene\Resources\Music_Licence.txt" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\schoolground.tiled2unity.xml" />
@@ -106,6 +107,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7686D1D2-58F3-F58B-A4D7-1A6A80C0B5E9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{FBA9143E-7C3C-0B83-EA54-4D9076C7852B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
