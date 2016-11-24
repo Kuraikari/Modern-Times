@@ -12,15 +12,15 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-*I'm alone, so what does the game do? Everything of course :P Nah just kidding...
-*The game is gonna be a (J)RPG, so it needs some kind of "story". 
-*I need my beloved Unity + Visual Studio.
-*And well that's it. Not anything else.
+* I'm alone, so what does the game do? Everything of course :P Nah just kidding...
+* The game is gonna be a (J)RPG, so it needs some kind of "story". 
+* I need my beloved Unity + Visual Studio.
+* And well that's it. Not anything else.
 
-*No external database.
+* No external database.
 
-*My tests are gonna run with some help of friends and other KOA members (Which aren't devs) 
-*I don't think there is gonna be a deployment. 
+* My tests are gonna run with some help of friends and other KOA members (Which aren't devs) 
+* I don't think there is gonna be a deployment. 
 
 ### Contribution guidelines ###
 
@@ -33,8 +33,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Who do I talk to? ###
 
-*I will talk to my hand. I mean the right hand ofcourse, what else? 
-*And to the teachy techmaster of doom. Mr Schär.
+* I will talk to my hand. I mean the right hand ofcourse, what else? 
+* And to the teachy techmaster of doom. Mr Schär.
 
 * Repo owner or admin
 * Other community or team contact
