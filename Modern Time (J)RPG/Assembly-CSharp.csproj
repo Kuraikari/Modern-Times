@@ -49,7 +49,16 @@
      <Compile Include="Assets\Progressbar.cs" />
      <Compile Include="Assets\Scripts\Abillity.cs" />
      <Compile Include="Assets\Scripts\AttackAbillity.cs" />
+     <Compile Include="Assets\Scripts\Character.cs" />
+     <Compile Include="Assets\Scripts\CombatSystem.cs" />
+     <Compile Include="Assets\Scripts\Element.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\GlobalAbillity.cs" />
+     <Compile Include="Assets\Scripts\NonPlayerCharacter.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SkillSystem.cs" />
      <Compile Include="Assets\Scripts\Status.cs" />
+     <Compile Include="Assets\Scripts\SupportAbillity.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
