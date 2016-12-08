@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -98,18 +92,38 @@
   <ItemGroup>
     <Compile Include="Assets\MusicController.cs" />
     <Compile Include="Assets\Progressbar.cs" />
-    <Compile Include="Assets\Scripts\Abillity.cs" />
-    <Compile Include="Assets\Scripts\AttackAbillity.cs" />
-    <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\CombatSystem.cs" />
-    <Compile Include="Assets\Scripts\Element.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\GlobalAbillity.cs" />
-    <Compile Include="Assets\Scripts\NonPlayerCharacter.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\SkillSystem.cs" />
-    <Compile Include="Assets\Scripts\Status.cs" />
-    <Compile Include="Assets\Scripts\SupportAbillity.cs" />
+    <Compile Include="Assets\Scripts\Characters\Character.cs" />
+    <Compile Include="Assets\Scripts\Characters\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Characters\Functionality\StorageKeeper.cs" />
+    <Compile Include="Assets\Scripts\Characters\Functionality\TradeMaster.cs" />
+    <Compile Include="Assets\Scripts\Characters\Functionality\Vendor.cs" />
+    <Compile Include="Assets\Scripts\Characters\NonPlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\Characters\Quotes.cs" />
+    <Compile Include="Assets\Scripts\Characters\Story\Family.cs" />
+    <Compile Include="Assets\Scripts\Characters\Story\Player.cs" />
+    <Compile Include="Assets\Scripts\Characters\Story\Waifu.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abilities\AttackAbillity.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abilities\Element.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abilities\GlobalAbillity.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abilities\SkillSystem.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abilities\Status.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abilities\SupportAbillity.cs" />
+    <Compile Include="Assets\Scripts\Combat System\Abillity.cs" />
+    <Compile Include="Assets\Scripts\Combat System\CombatSystem.cs" />
+    <Compile Include="Assets\Scripts\Economy System\Bank.cs" />
+    <Compile Include="Assets\Scripts\Economy System\Currency.cs" />
+    <Compile Include="Assets\Scripts\Economy System\ExchangeRate.cs" />
+    <Compile Include="Assets\Scripts\Economy System\Storage.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Acquaintance.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Archrival.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\BestFriend.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Disliked.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Friend.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Neutral.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Pal.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship States\Rival.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\Relationship.cs" />
+    <Compile Include="Assets\Scripts\Relationship System\States.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
