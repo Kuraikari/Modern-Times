@@ -9,6 +9,7 @@ public class AttackAbillity : Abillity {
     //attributes
     public int damage;
     public Status status;
+    public Scaling scaling;
     
 
 
@@ -27,5 +28,13 @@ public class AttackAbillity : Abillity {
     {
         id = 1;
     }
+
+    //Getters
+    public int getDamage() { return damage; }
+    public Status getStatus() { return status; }
+
+    //Setters
+    public void setDamage(int dmg) { damage = dmg; }
+    public void setStatus(Status stat) { status = stat; }
 
 }
