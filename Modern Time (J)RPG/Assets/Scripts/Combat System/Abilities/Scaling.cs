@@ -15,7 +15,7 @@ public class Scaling {
 
     public Scaling()
     {
-        id = 1;
+        m_id = 1;
     }
 
     //Getters

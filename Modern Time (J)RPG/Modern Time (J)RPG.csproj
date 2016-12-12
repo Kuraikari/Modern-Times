@@ -73,6 +73,12 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
     <Reference Include="GETween">
       <HintPath>Assets\Plugins\GUI Animator\Common\Plugins\GETween.dll</HintPath>
     </Reference>
@@ -94,9 +100,10 @@
     <Compile Include="Assets\Progressbar.cs" />
     <Compile Include="Assets\Scripts\Characters\Character.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\StorageKeeper.cs" />
-    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\TradeMaster.cs" />
-    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Vendor.cs" />
+    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions.cs" />
+    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions\StorageKeeper.cs" />
+    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions\TradeMaster.cs" />
+    <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions\Vendor.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\NonPlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Quotes.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Story\Chuunibyou\Transformation.cs" />
