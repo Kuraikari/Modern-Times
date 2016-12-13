@@ -2,15 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Neutral : MonoBehaviour {
+public class Neutral : States
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public bool isActive;
+    public float malus;
+
+    public bool checkActive()
+    {
+        if (getName() == "Neutral")
+            isActive = true;
+        else
+            isActive = false;
+
+        return isActive;
+    }
+
+    public override void makeBonusMalus()
+    {
+        if (checkActive() == true)
+        {
+            malus = UnityEngine.Random.Range(-1, 1);
+
+        }
+    }
+
 }

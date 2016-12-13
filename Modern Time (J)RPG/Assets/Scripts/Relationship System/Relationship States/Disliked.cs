@@ -2,15 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Disliked : MonoBehaviour {
+public class Disliked : States
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public bool isActive;
+    public float malus;
+
+    public bool checkActive()
+    {
+        if (getName() == "Disliked")
+            isActive = true;
+        else
+            isActive = false;
+
+        return isActive;
+    }
+
+    public override void makeBonusMalus()
+    {
+        if (checkActive() == true)
+        {
+            malus = UnityEngine.Random.Range(-1, -5);
+
+        }
+    }
+
 }

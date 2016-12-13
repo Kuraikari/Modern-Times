@@ -11,14 +11,25 @@ using UnityEngine;
  * There are alot so beware of entering this dangerous place, mate!     *
  ************************************************************************/
 
-public class States {
+public abstract class States {
 
     //Attributes
     private int m_id;
+    public bool isFamilyMember;
     public string name;
     public States state;
 
     //Constructors
+
+    public States(string name, States state, bool isFamily)
+    {
+        newID();
+        this.name = name;
+        this.state = state;
+        this.isFamilyMember = isFamily;
+    }
+
+
     public States(string name, States state)
     {
         newID();
@@ -50,5 +61,8 @@ public class States {
     public void setName(string name) { this.name =  name; }
     public void setState(States state) { this.state =  state; }
 
+
+    //States Effects
+    public abstract void makeBonusMalus();
 
 }
