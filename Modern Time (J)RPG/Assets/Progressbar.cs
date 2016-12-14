@@ -26,7 +26,7 @@ public class Progressbar : MonoBehaviour
     void Start()
     {
         foregroundImage = gameObject.GetComponent<Image>();
-        Value = 0;
+        Value = 90;
     }
 
     //Testing: this function will be called when Test Button is clicked
