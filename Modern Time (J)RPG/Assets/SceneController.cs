@@ -12,6 +12,14 @@ public class SceneController : MonoBehaviour {
         SceneManager.LoadScene(nameOfScene); 
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.name == "Player")
+        {
+            goToScene();
+        }
+    }
+
     public void Start()
     {
        
