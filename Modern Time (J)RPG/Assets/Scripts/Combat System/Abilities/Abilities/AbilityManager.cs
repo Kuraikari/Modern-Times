@@ -23,24 +23,24 @@ public class AbilityManager : MonoBehaviour {
         attackAbility.Add(new AttackAbillity(0, "ATTACK", 0, 10, 50, new Status(), new Scaling()));
         
         //Create Attackabilities
-        attackAbility.Add(new AttackAbillity(1, "HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(2, "PUNCH", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(3, "SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(4, "KICK", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(5, "SLAM", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(6, "HEADBUTT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(7, "BODYSLAM", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(8, "TACKLE", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(9, "DOUBLE HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(10, "KNUCKLE", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(11, "SWORD SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(12, "SWORD HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(13, "SWORD CUT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(14, "STAFF HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(15, "SHORTSWORD CUT", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(16, "SHORTSWORD SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(17, "BACKHAND KNOCKUP", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
-        attackAbility.Add(new AttackAbillity(18, "ROUNDHOUSE KICK", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
+        attackAbility.Add(new AttackAbillity(1, "HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Normal Hit
+        attackAbility.Add(new AttackAbillity(2, "PUNCH", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //A Punch
+        attackAbility.Add(new AttackAbillity(3, "SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Attack with something sharp
+        attackAbility.Add(new AttackAbillity(4, "KICK", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Kick
+        attackAbility.Add(new AttackAbillity(5, "SLAM", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Slam with the body
+        attackAbility.Add(new AttackAbillity(6, "HEADBUTT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Attack with the Head
+        attackAbility.Add(new AttackAbillity(7, "BODYSLAM", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Stronger Version of the Slam Attack
+        attackAbility.Add(new AttackAbillity(8, "TACKLE", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Weak Attack, ONLY used for untransformed Chars
+        attackAbility.Add(new AttackAbillity(9, "DOUBLE HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Hits the enemy 2x
+        attackAbility.Add(new AttackAbillity(10, "KNUCKLE", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Hit with the knuckles
+        attackAbility.Add(new AttackAbillity(11, "SWORD SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //heavy attack with the Sword (For Go-Ken)
+        attackAbility.Add(new AttackAbillity(12, "SWORD HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Normal Attack with the back of the Sowrd (For Go-Ken)
+        attackAbility.Add(new AttackAbillity(13, "SWORD CUT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Normal Attack withe Blade of the Sword (For Go-Ken)
+        attackAbility.Add(new AttackAbillity(14, "STAFF HIT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Only Physical attack for the Miko
+        attackAbility.Add(new AttackAbillity(15, "SHORTSWORD CUT", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Kunoichi Attacks fast multiple Times(between 2 and 5)
+        attackAbility.Add(new AttackAbillity(16, "SHORTSWORD SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //Quick and Heavy Attack with the blade.
+        attackAbility.Add(new AttackAbillity(17, "BACKHAND KNOCKUP", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); //An attack with the backhand (Kunoichi) can critically hit
+        attackAbility.Add(new AttackAbillity(18, "ROUNDHOUSE KICK", 0, 10, 50, new Status(), new PhysicalPower(0.5f))); 
         attackAbility.Add(new AttackAbillity(19, "STOMP", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
         attackAbility.Add(new AttackAbillity(20, "FORCE PUNCH", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));
         attackAbility.Add(new AttackAbillity(21, "POWER SLASH", 0, 10, 50, new Status(), new PhysicalPower(0.5f)));

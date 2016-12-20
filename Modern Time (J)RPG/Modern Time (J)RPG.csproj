@@ -151,6 +151,7 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+    <Compile Include="Assets\_Test\TestCombat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Fantasy Skybox FREE\Fog and Ambient reference.txt" />

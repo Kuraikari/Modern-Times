@@ -6,9 +6,17 @@ public class Player : Character {
 
     TechnicalFunctions tech;
 
+    public Transformation transform;
+    bool isTransformed;
+
     public Player()
     {
-
+        name = "Hyuuga";
+        health = 200;
+        experience = 0;
+        level = 0;
+        magicalPower = 0;
+        physicalPower = 0;
     }
 
  

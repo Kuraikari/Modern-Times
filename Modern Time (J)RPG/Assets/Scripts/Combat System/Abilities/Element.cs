@@ -5,13 +5,22 @@ public class Element{
 
     private int id;
     private string element;
-    private static string[] types = { "Fire", "Water", "Nature", "Air", "Electro", "Dark", "Holy", "Metal", "Ice" };
 
     public Element(int id, string element)
     {
         this.id = id;
         this.element = element;
     }
+
+    public Element()
+    {
+        this.id = -1;
+    }
+
+}
+
+public class Fire : Element
+{
     //***************
     //FIRE
     //***************
@@ -23,6 +32,10 @@ public class Element{
     //Fire = Holy
     //Fire < Water
     //Fire < Nature
+}
+
+public class Water : Element
+{
     //***************
     //Water
     //***************
@@ -34,8 +47,45 @@ public class Element{
     //Water = Air
     //Water < Ice
     //Water < Electro
+}
+
+public class Nature : Element
+{
+    //***************
+    //Nature
+    //***************
+    //Nature > Electro
+    //Nature > Ice
+    //Nature > Water
+    //Nature = Holy
+    //Nature = Metal
+    //Nature < Air
+    //Nature < Dark
+    //Nature < Fire
+}
+
+public class Air : Element
+{
+    //***************
+    //Air
+    //***************
     //
     //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+}
+
+public class Electro
+{
+    //***************
+    //Air
+    //***************
     //
     //
     //
@@ -47,5 +97,76 @@ public class Element{
     //
     //
 
+}
+
+public class Dark : Element
+{
+    //***************
+    //Air
+    //***************
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+
+}
+
+public class Holy : Element
+{
+    //***************
+    //Air
+    //***************
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+
+}
+
+public class Metal : Element
+{
+    //***************
+    //Air
+    //***************
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+
+}
+
+public class Ice : Element
+{
+    //***************
+    //Air
+    //***************
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
 
 }

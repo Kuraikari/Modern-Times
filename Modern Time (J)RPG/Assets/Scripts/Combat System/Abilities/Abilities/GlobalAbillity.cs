@@ -9,7 +9,7 @@ public class GlobalAbillity : Abillity {
 
 
     //constructors
-    public GlobalAbillity(uint id, string name, float castTime, uint ap, AbilityFunctions func, Status status)
+    public GlobalAbillity(uint id, string name, int castTime, uint ap, AbilityFunctions func, Status status)
     {
         this.id = id;
         this.name = name;

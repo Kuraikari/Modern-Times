@@ -5,6 +5,8 @@
  * Author: zian Wermelinger 
  * Project: Modern Time (J)RPG */
 
+using System.Collections.Generic;
+
 public class Status
 {
     //attributes

@@ -11,7 +11,7 @@ public class SupportAbillity : Abillity {
 
 
     //constructors
-    public SupportAbillity(uint id, string name, float castTime, uint ap, AbilityFunctions func, Status status)
+    public SupportAbillity(uint id, string name, int castTime, uint ap, AbilityFunctions func, Status status)
     {
         this.id = id;
         this.name = name;
