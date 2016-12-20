@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* This repository is for the unity game new project of KOA.
+* This repository is for the unity game, the new project of KOA.
 * 0.1
 
 
@@ -15,6 +15,7 @@ This README would normally document whatever steps are necessary to get your app
 * I'm alone, so what does the game do? Everything of course :P Nah just kidding...
 * The game is gonna be a (J)RPG, so it needs some kind of "story". 
 * I need my beloved Unity + Visual Studio.
+* You need some minor graphics, to help clarify where what is is gonna be.
 * And well that's it. Not anything else.
 
 * No external database.
