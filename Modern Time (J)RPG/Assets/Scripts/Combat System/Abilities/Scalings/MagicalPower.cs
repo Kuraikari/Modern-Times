@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MagicalPower : Scaling  {
 
-    float mp;
+    public float mp;
 
     public MagicalPower(float mp)
     {

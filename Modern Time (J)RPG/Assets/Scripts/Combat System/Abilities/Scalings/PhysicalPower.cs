@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PhysicalPower : Scaling {
 
-    float pp;
+    public float pp;
 
     public PhysicalPower(float pp)
     {

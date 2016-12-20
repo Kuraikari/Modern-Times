@@ -15,7 +15,26 @@ public class Character {
     public string name;
     public Character type;
 
+    //Character Attributes...
+    public float health;
+    public float experience;
+    public int level;
+    public float magicalPower;
+    public float physicalPower;
+
     //Constructors
+    public Character(string name, Character type, float health, float exp, int lvl, float mp, float pp)
+    {
+        newID();
+        this.name = name;
+        this.type = type;
+        this.health = health;
+        this.experience = exp;
+        this.level = lvl;
+        this.magicalPower = mp;
+        this.physicalPower = pp;
+    }
+
     public Character(string name, Character type)
     {
         newID();

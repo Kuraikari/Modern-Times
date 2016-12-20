@@ -6,6 +6,11 @@ public class Player : Character {
 
     TechnicalFunctions tech;
 
+    public Player()
+    {
+
+    }
+
  
     public void setPlayerName()
     {

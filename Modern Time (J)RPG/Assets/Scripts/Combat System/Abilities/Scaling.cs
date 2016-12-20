@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Scaling {
 
-    private int m_id;
-    private string m_type;
+    AbilityManager am;
 
-	public Scaling(int id, string type)
+    private int m_id;
+    private Scaling m_type;
+ 
+
+	public Scaling(int id, Scaling type)
     {
         this.m_id = id;
         this.m_type = type;
@@ -20,9 +23,35 @@ public class Scaling {
 
     //Getters
     public int getID() { return m_id; }
-    public string getType() { return m_type; }
+    public Scaling getType() { return m_type; }
 
     //Setters
     public void setID(int id) { this.m_id = id; }
-    public void setType(string type) { this.m_type = type; }
+    public void setType(Scaling type) { this.m_type = type; }
+
+    //Is it Magical or Physical?
+    public bool isMagicalOrPhysical()
+    {
+        if (m_type is MagicalPower)
+            return true;
+        else
+            return false;
+    }
+
+    //Returns
+    public PhysicalPower returnPhysical()
+    {
+        if (m_type is MagicalPower)
+            return null;
+        else
+            return new PhysicalPower(0.5f);
+    }
+
+    public MagicalPower returnMagical()
+    {
+        if (m_type is MagicalPower)
+            return new MagicalPower(0.5f);
+        else
+            return null;
+    }
 }
