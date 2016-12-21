@@ -11,6 +11,11 @@ public class MagicalPower : Scaling  {
         this.mp = mp;
     }
 
+    public MagicalPower()
+    {
+        mp = 0;
+    }
+
     //Getters
     public float getMP() { return mp; }
 

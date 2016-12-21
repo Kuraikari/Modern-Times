@@ -11,6 +11,11 @@ public class PhysicalPower : Scaling {
         this.pp = pp;
     }
 
+    public PhysicalPower()
+    {
+        this.pp = 0;
+    }
+
     //getters
     public float getPP() { return pp; }
 

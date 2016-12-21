@@ -13,15 +13,13 @@ public class Status
     public uint id;
     public string name;
     public float duration;
-    public Status status;
 
     //constructors
-    public Status(uint id, string name, float duration, Status status)
+    public Status(uint id, string name, float duration)
     {
         this.id = id;
         this.name = name;
         this.duration = duration;
-        this.status = status;
     }
 
     public Status()
@@ -29,7 +27,14 @@ public class Status
         id = 0;
     }
 
-    //methods
+    //Getters
+    public uint getID() { return id; }
+    public string getString() { return name; }
+    public float getDuration() { return duration;  }
 
 
+    //Setters
+    public void setID(uint id) { this.id = id; }
+    public void setString(string name) { this.name = name; }
+    public void setDuration(float duration) { this.duration = duration; }
 }

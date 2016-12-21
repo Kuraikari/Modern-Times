@@ -96,6 +96,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\MusicController.cs" />
     <Compile Include="Assets\Progressbar.cs" />
     <Compile Include="Assets\SceneController.cs" />

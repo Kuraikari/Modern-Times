@@ -3,7 +3,7 @@ using System.Collections;
 
 
 [System.Serializable]
-public class Abillity {
+public abstract class Abillity {
 
     //attributes
     public uint id;

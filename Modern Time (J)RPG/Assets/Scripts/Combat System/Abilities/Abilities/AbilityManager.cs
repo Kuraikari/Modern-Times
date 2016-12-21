@@ -66,7 +66,6 @@ public class AbilityManager : MonoBehaviour {
         globalAbility.Add(new GlobalAbillity(71, "QUICK ESCAPE", 0, 10, new AbilityFunctions(), new Status()));
         globalAbility.Add(new GlobalAbillity(72, "HIT & CHANGE", 0, 10, new AbilityFunctions(), new Status()));
         globalAbility.Add(new GlobalAbillity(73, "CLEANSE", 0, 10, new AbilityFunctions(), new Status()));
-
     }
 
     public void doAttack(int indexOfAbility)

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Scaling {
 
-    AbilityManager am;
-
     private int m_id;
     private Scaling m_type;
  
@@ -44,13 +42,13 @@ public class Scaling {
         if (m_type is MagicalPower)
             return null;
         else
-            return new PhysicalPower(0.5f);
+            return new PhysicalPower();
     }
 
     public MagicalPower returnMagical()
     {
         if (m_type is MagicalPower)
-            return new MagicalPower(0.5f);
+            return new MagicalPower();
         else
             return null;
     }

@@ -61,8 +61,18 @@ public class Character {
     //Getters 
     public string getName() { return name; }
     public Character getType() { return type; }
+    public float getHealth() { return health; }
+    public float getExperience() { return experience; }
+    public int getLevel() { return level; }
+    public float getMagicalPower() { return magicalPower; }
+    public float getPhysicalPower() { return physicalPower; }
 
     //Setters
     public void setName(string name) { this.name = name; }
     public void setType(Character type) { this.type =  type; }
+    public void setHealth(float health) { this.health = health; }
+    public void setExperience(float experience) { this.experience = experience; }
+    public void setLevel(int level) { this.level = level; }
+    public void setMagicalPower(float magicalPower) { this.magicalPower = magicalPower; }
+    public void setPhysicalPower(float physicalPower) { this.physicalPower = physicalPower; }
 }
