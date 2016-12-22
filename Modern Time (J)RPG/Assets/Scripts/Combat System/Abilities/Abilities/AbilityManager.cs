@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class AbilityManager : MonoBehaviour {
 
+    //Abilities
     public List<AttackAbillity> attackAbility;
     public List<SupportAbillity> supportAbility;
     public List<GlobalAbillity> globalAbility;
+
+    //Statuses
+    public List<Status> abilStatus;
 
     public Character chara;
 
@@ -16,6 +20,43 @@ public class AbilityManager : MonoBehaviour {
 	void Start () {
 		
 	}
+
+    public void loadAbilities()
+    {
+        Serializer.Load<List<Status>>("statuses.txt");
+        Serializer.Load<List<AttackAbillity>>("attacks.txt");
+        Serializer.Load<List<SupportAbillity>>("supports.txt");
+        Serializer.Load<List<GlobalAbillity>>("globals.txt");
+    }
+
+    public void createEverything()
+    {
+        createStatuses();
+        createAbilities();
+    }
+
+    public void createStatuses()
+    {
+        //Category: Fight over overlapping
+        abilStatus.Add(new Status(0, "FIGHT OVERLAPPING", 0));
+
+        //Create Statuses
+        abilStatus.Add(new Status(1, "BURN", 0, "COLD WATER"));
+        abilStatus.Add(new Status(2, "POISON", 0, "ANTIDOTE"));
+        abilStatus.Add(new Status(3, "FROZEN", 0, "WARMTH"));
+        abilStatus.Add(new Status(4, "KO", 0, "REVIVE"));
+
+        //Category: In-Fight only
+        abilStatus.Add(new Status(10, "IN-FIGHT ONLY", 20));
+
+        //Create Statuses
+        abilStatus.Add(new Status(11, "CONFUSED", 5));
+        abilStatus.Add(new Status(12, "STUNNED", 3));
+        abilStatus.Add(new Status(13, "FLINCHED", 1));
+        abilStatus.Add(new Status(14, "FEARED", 2));
+
+        Serializer.Save<List<Status>>("statuses.txt", abilStatus);
+    }
 
     public void createAbilities()
     {
@@ -66,6 +107,10 @@ public class AbilityManager : MonoBehaviour {
         globalAbility.Add(new GlobalAbillity(71, "QUICK ESCAPE", 0, 10, new AbilityFunctions(), new Status()));
         globalAbility.Add(new GlobalAbillity(72, "HIT & CHANGE", 0, 10, new AbilityFunctions(), new Status()));
         globalAbility.Add(new GlobalAbillity(73, "CLEANSE", 0, 10, new AbilityFunctions(), new Status()));
+
+        Serializer.Save<List<AttackAbillity>>("attacks.txt", attackAbility);
+        Serializer.Save<List<SupportAbillity>>("supports.txt", supportAbility);
+        Serializer.Save<List<GlobalAbillity>>("globals.txt", globalAbility);
     }
 
     public void doAttack(int indexOfAbility)

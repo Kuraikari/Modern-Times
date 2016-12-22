@@ -7,14 +7,24 @@
 
 using System.Collections.Generic;
 
+[System.Serializable]
 public class Status
 {
     //attributes
     public uint id;
     public string name;
     public float duration;
+    public string cure;
 
     //constructors
+    public Status(uint id, string name, float duration, string cure)
+    {
+        this.id = id;
+        this.name = name;
+        this.duration = duration;
+        this.cure = cure;
+    }
+
     public Status(uint id, string name, float duration)
     {
         this.id = id;
