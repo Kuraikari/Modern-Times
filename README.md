@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * This repository is for the unity game, the new project of KOA.
-* 0.1
+* 0.2a
 
 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
@@ -39,3 +39,8 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+### Features 'till now ###
+* You can walk
+* Listening to my music 
+* Watch your FPS dropping
