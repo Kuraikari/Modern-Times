@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExchangeRate {
+public class Currency {
 
     public int id;
     public string name;
+    public ExchangeRate exR;
     public float value;
 
-    public ExchangeRate()
+
+
+    public Currency()
     {
         id = -1;
     }
@@ -16,17 +19,14 @@ public class ExchangeRate {
     //Getters
     public int getID() { return id; }
     public string getName() { return name; }
+    public ExchangeRate getExR() { return exR; }
     public float getValue() { return value; }
 
     //Setters
     public void setID(int id) { this.id = id; }
     public void setName(string name) { this.name = name; }
+    public void setExR(ExchangeRate exR) { this.exR = exR; }
     public void setValue(float value) { this.value = value; }
 
     //Methods
-    public float compareCurrency(Currency c1, Currency c2)
-    {
-        
-        return value;
-    }
 }

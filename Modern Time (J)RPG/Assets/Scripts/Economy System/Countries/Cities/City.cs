@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CHF : MonoBehaviour {
+public class City : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
