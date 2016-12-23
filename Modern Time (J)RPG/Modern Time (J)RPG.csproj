@@ -132,6 +132,7 @@
     <Compile Include="Assets\Scripts\Economy System\Storage.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MusicController.cs" />
+    <Compile Include="Assets\Scripts\Note System\Scripts\Note.cs" />
     <Compile Include="Assets\Scripts\Progressbar.cs" />
     <Compile Include="Assets\Scripts\Relationship System\Relationship States\Acquaintance.cs" />
     <Compile Include="Assets\Scripts\Relationship System\Relationship States\Archrival.cs" />
