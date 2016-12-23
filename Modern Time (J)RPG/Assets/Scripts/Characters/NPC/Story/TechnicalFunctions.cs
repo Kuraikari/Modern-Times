@@ -19,4 +19,18 @@ public class TechnicalFunctions
 
         return UItextGO;
     }
+
+    public GameObject CreateButton(Transform canvas_transform, float x, float y, float width, float length, Button.ButtonClickedEvent onClick)
+    {
+        GameObject UIButtonGO = new GameObject("Button2");
+        UIButtonGO.transform.SetParent(canvas_transform);
+
+        RectTransform trans = UIButtonGO.AddComponent<RectTransform>();
+        trans.anchoredPosition = new Vector2(x, y);
+
+        Button button = UIButtonGO.AddComponent<Button>();
+        button.onClick = onClick;
+
+        return UIButtonGO;
+    }
 }
