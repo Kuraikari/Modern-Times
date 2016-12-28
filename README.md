@@ -48,6 +48,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Coming up ###
 * Relationships System
+* Economic System (Banking, Trading, Currency Exchange etc etc)
 * Character Management
 * Fighting System
 * New Maps
