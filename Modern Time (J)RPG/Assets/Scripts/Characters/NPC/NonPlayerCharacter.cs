@@ -24,6 +24,13 @@ public class NonPlayerCharacter : Character {
 
     }
 
+    public NonPlayerCharacter(int id, bool hasFunction)
+    {
+        this.id = id;
+        this.hasFunction = hasFunction;
+
+    }
+
     public NonPlayerCharacter()
     {
 

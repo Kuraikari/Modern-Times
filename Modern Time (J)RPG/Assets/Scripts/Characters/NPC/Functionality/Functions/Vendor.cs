@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Vendor : MonoBehaviour {
+public class Vendor : Functions {
 
 	// Use this for initialization
 	void Start () {

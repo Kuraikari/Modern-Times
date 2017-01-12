@@ -17,6 +17,13 @@ public class Currency {
         this.value = value;
     }
 
+    public Currency(int id, string name, float value)
+    {
+        this.id = id;
+        this.name = name;
+        this.value = value;
+    }
+
     public Currency()
     {
         id = -1;

@@ -2,15 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Functions : MonoBehaviour {
+public class Functions {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    int id;
+    string speciality;
+    Functions func;
+
+    public Functions(int id, Functions func)
+    {
+        this.id = id;
+        this.func = func;
+    }
+
+    public Functions()
+    {
+        id = -1;
+    }
+
+    //Getters
+    int getID() { return id; }
+    string getSpeciality() { return speciality; }
+    Functions getFunction() { return func; }
+
+    //Setters
+    void setID(int id) { this.id = id; }
+    void setSpeciality(string speciality) { this.speciality = speciality; }
+    void setFunction(Functions func) { this.func = func; }
 }

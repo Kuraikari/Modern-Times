@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Banker : MonoBehaviour {
+public class StorageKeeper : Functions {
 
 	// Use this for initialization
 	void Start () {

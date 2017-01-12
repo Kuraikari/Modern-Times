@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EconomicManager : MonoBehaviour {
 
-    List<Country> countries;
+    
     
 
 	// Use this for initialization
@@ -17,20 +17,40 @@ public class EconomicManager : MonoBehaviour {
 		
 	}
 
-    public void createCountries()
+    //Creations
+    public List<Country> createCountries()
     {
+        List<Country> countries = new List<Country>();
+
         //Countries
         countries.Add(new Country(0, "COUNTRY", new List<City>(), new Currency() ));
 
-        countries.Add(new Country(1, "JAPAN", createCitiesJapan(), new Currency(0, "YEN", new List<ExchangeRate>(), 100)));
-        countries.Add(new Country(2, "USA", createCitiesUSA(), new Currency(0, "DOLLAR", new List<ExchangeRate>(), 1)));
-        countries.Add(new Country(3, "FRANCE", createCitiesFrance(), new Currency(0, "EURO", new List<ExchangeRate>(), 1)));
-        countries.Add(new Country(4, "ENGLAND", createCitiesEngland(), new Currency(0, "POUNDS", new List<ExchangeRate>(), 1)));
-        countries.Add(new Country(5, "SWITZERLAND", createCitiesSwitzerland(), new Currency(0, "CHF", new List<ExchangeRate>(), 1)));
+        countries.Add(new Country(1, "JAPAN", createCitiesJapan(), ));
+        countries.Add(new Country(2, "USA", createCitiesUSA(), ));
+        countries.Add(new Country(3, "FRANCE", createCitiesFrance(), ));
+        countries.Add(new Country(4, "ENGLAND", createCitiesEngland(), ));
+        countries.Add(new Country(5, "SWITZERLAND", createCitiesSwitzerland(), ));
+
+        return countries;
+    }
+
+    public List<Currency> createCurrencies()
+    {
+        List<Currency> currencies = new List<Currency>();
+        currencies.Add(new Currency(0, "EXCHANGE", 1));
+
+        currencies.Add(new Currency(1, "YEN", 100));
+        currencies.Add(new Currency(2, "DOLLAR", 1));
+        currencies.Add(new Currency(3, "EURO", 1));
+        currencies.Add(new Currency(4, "POUNDS", 1));
+        currencies.Add(new Currency(5, "CHF", 1));
+
+        return currencies;
     }
 
     public void createExchageRates()
     {
+        
 
     }
 
@@ -86,5 +106,16 @@ public class EconomicManager : MonoBehaviour {
 
         return cities;
     }
+
+
+    //Returns
+    public Currency retCurrencyByIndex(int id)
+    {
+        List<Currency> curs = createCurrencies();
+        Currency cur = curs.Find(x => x.id.Equals(id));
+        return cur;
+    }
+
+    
 
 }
