@@ -3,7 +3,15 @@ using System.Collections;
 
 public class CombatSystem : MonoBehaviour {
 
-    
+    public AbilityManager am;
+    public Player player;
+    public Enemy[] enemies;
+
+    public bool turn; // false == enemy / true == player
+    public int turnCount; //for events and bonus exp; 1 turn = 1.01x , 10 turn == 1.10x
+    public float receivedEXP;
+    public bool isEscaping;
+
 
 	// Use this for initialization
 	void Start () {

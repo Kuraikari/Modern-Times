@@ -79,6 +79,12 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
     <Reference Include="GETween">
       <HintPath>Assets\Plugins\GUI Animator\Common\Plugins\GETween.dll</HintPath>
     </Reference>
@@ -132,6 +138,7 @@
     <Compile Include="Assets\Scripts\Economy System\Storage.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MusicController.cs" />
+    <Compile Include="Assets\Scripts\Note System\Scripts\Note.cs" />
     <Compile Include="Assets\Scripts\Progressbar.cs" />
     <Compile Include="Assets\Scripts\Relationship System\Relationship States\Acquaintance.cs" />
     <Compile Include="Assets\Scripts\Relationship System\Relationship States\Archrival.cs" />
