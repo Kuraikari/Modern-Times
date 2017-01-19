@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Vendor : Functions {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    
+
+	public Vendor(int index, string special)
+    {
+        setID(index);
+        setSpeciality(special);
+    }
+
+
 }

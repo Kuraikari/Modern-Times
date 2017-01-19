@@ -25,11 +25,11 @@ public class EconomicManager : MonoBehaviour {
         //Countries
         countries.Add(new Country(0, "COUNTRY", new List<City>(), new Currency() ));
 
-        countries.Add(new Country(1, "JAPAN", createCitiesJapan(), ));
-        countries.Add(new Country(2, "USA", createCitiesUSA(), ));
-        countries.Add(new Country(3, "FRANCE", createCitiesFrance(), ));
-        countries.Add(new Country(4, "ENGLAND", createCitiesEngland(), ));
-        countries.Add(new Country(5, "SWITZERLAND", createCitiesSwitzerland(), ));
+        countries.Add(new Country(1, "JAPAN", createCitiesJapan(), retCurrencyByIndex(1)));
+        countries.Add(new Country(2, "USA", createCitiesUSA(), retCurrencyByIndex(2)));
+        countries.Add(new Country(3, "FRANCE", createCitiesFrance(), retCurrencyByIndex(3)));
+        countries.Add(new Country(4, "ENGLAND", createCitiesEngland(), retCurrencyByIndex(4)));
+        countries.Add(new Country(5, "SWITZERLAND", createCitiesSwitzerland(), retCurrencyByIndex(5)));
 
         return countries;
     }

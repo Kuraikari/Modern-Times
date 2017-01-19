@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Functions {
 
-    int id;
-    string speciality;
-    Functions func;
+    public int id;
+    public string speciality;
+    public Functions func;
 
     public Functions(int id, Functions func)
     {
@@ -20,12 +20,12 @@ public class Functions {
     }
 
     //Getters
-    int getID() { return id; }
-    string getSpeciality() { return speciality; }
-    Functions getFunction() { return func; }
+    public int getID() { return id; }
+    public string getSpeciality() { return speciality; }
+    public Functions getFunction() { return func; }
 
     //Setters
-    void setID(int id) { this.id = id; }
-    void setSpeciality(string speciality) { this.speciality = speciality; }
-    void setFunction(Functions func) { this.func = func; }
+    public void setID(int id) { this.id = id; }
+    public void setSpeciality(string speciality) { this.speciality = speciality; }
+    public void setFunction(Functions func) { this.func = func; }
 }
