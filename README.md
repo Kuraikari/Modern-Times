@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * This repository is for the unity game, the new project of KOA.
-* 0.2.5a
+* 0.3.8a
 
 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
@@ -46,11 +46,15 @@ This README would normally document whatever steps are necessary to get your app
 * Watch your FPS dropping
 * Reading documents
 
+* Character Management
+* Ability Management
+* Economy System (Currency Exchange, Vendor)
+
 ### Coming up ###
 * Relationships System
-* Economic System (Banking, Trading, Currency Exchange etc etc)
-* Character Management
+* Banking, Trading for Economy System
 * Fighting System
-* New Maps
+* New Maps ( Street, Player Home, Emergency, Mart etc etc)
 * New Sprites
 * Some UI changes
+* Lots of Bugfixes
