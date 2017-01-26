@@ -138,6 +138,7 @@
     <None Include="Assets\Plugins\MusicManager\TestScene\Resources\Music_Licence.txt" />
     <None Include="Assets\Plugins\RPGTALK\Demo\Talks\DemosText.txt" />
     <None Include="Assets\Plugins\RPGTALK\ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\Street.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Imported\classroom.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\schoolbuilding.tiled2unity.xml" />
@@ -153,6 +154,7 @@
     <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
     <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+    <None Include="Assets\_Maps\Export\Tiled2Unity.export.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

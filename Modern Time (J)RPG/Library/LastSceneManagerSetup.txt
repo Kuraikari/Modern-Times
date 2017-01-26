@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/schoolground.unity
+- path: Assets/Scenes/streettoschool.unity
   isLoaded: 1
   isActive: 1
