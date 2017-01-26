@@ -1,15 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : NonPlayerCharacter
+{
+    public int id;
+    public new string name;
+    public float givenEXP;
+    public new int level;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public Enemy(int id, string name, float givenEXP, float health, float level) :base(id, name ,false)
+    {
+        
+    }
+
+    public float calcEXPOut()
+    {
+        float expOut;
+        expOut = givenEXP * (level * 0.75f) / 2.5f;
+
+
+        return expOut;
+    }
+
 }
