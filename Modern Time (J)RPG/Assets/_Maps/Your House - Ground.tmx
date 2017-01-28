@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tileset2" tilewidth="32" tileheight="32" tilecount="128" columns="8">
+  <image source="../Sprites/tileset2.png" width="256" height="512"/>
+  <terraintypes>
+   <terrain name="Table" tile="-1"/>
+   <terrain name="Wall" tile="-1"/>
+  </terraintypes>
+  <tile id="5">
+   <objectgroup draworder="index">
+    <object id="1" x="9" y="6.125" width="14.75" height="12.875"/>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index">
+    <object id="1" x="8" y="23" width="2.625" height="4.75"/>
+    <object id="2" x="18.875" y="22.625" width="2.875" height="5.25"/>
+   </objectgroup>
+  </tile>
+  <tile id="9" terrain=",,1,1"/>
+  <tile id="10" terrain="1,1,,"/>
+  <tile id="15">
+   <objectgroup draworder="index">
+    <object id="1" x="8.75" y="0" width="2.125" height="3.125"/>
+    <object id="2" x="21" y="-0.125" width="1.75" height="3.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="17" terrain=",,1,1"/>
+  <tile id="18" terrain="1,1,,"/>
+  <tile id="22">
+   <objectgroup draworder="index">
+    <object id="1" x="0.125" y="17.375">
+     <polygon points="-0.25,-1.5 6.5,0.25 32,9.375 31.875,12.875 -0.25,12.75"/>
+    </object>
+    <object id="2" x="-0.125" y="0">
+     <polygon points="0,0 4,1 32,10.25 32.375,11.875 18.5,7.5 0.375,1.5"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="27">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="-0.125" width="32" height="31.875"/>
+   </objectgroup>
+  </tile>
+  <tile id="28">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.25" y="-0.25" width="32.125" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="49" terrain="0,0,0,0"/>
+  <tile id="50" terrain="0,0,0,0"/>
+  <tile id="51" terrain="0,0,0,0"/>
+  <tile id="52">
+   <objectgroup draworder="index">
+    <object id="1" x="7" y="10.375" width="15.75" height="4.5"/>
+    <object id="2" x="10.875" y="2.625" width="11.875" height="7.625"/>
+   </objectgroup>
+  </tile>
+  <tile id="53">
+   <objectgroup draworder="index">
+    <object id="1" x="10.5" y="0.5" width="12.25" height="11.625">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="54">
+   <objectgroup draworder="index">
+    <object id="1" x="9.75" y="15" width="12.875" height="12.375">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="129" name="tileset" tilewidth="32" tileheight="32" tilecount="128" columns="8">
+  <image source="../Sprites/tileset.png" width="256" height="512"/>
+ </tileset>
+ <layer name="Ground" width="10" height="10">
+  <data encoding="csv">
+20,20,20,20,20,20,20,20,20,20,
+21,20,20,20,20,20,20,20,20,20,
+21,21,21,20,20,20,20,20,20,20,
+21,20,20,21,21,21,20,20,21,21,
+21,20,20,20,20,20,21,21,20,20,
+21,20,20,20,20,20,20,20,20,20,
+21,20,20,20,20,20,20,20,21,21,
+21,20,20,20,20,20,20,20,21,21,
+21,20,20,20,20,20,20,20,20,20,
+21,20,20,20,20,20,20,20,20,20
+</data>
+ </layer>
+ <layer name="Props" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+50,51,52,0,0,0,0,0,0,0,
+0,0,0,54,54,54,0,0,54,54,
+0,0,0,0,0,0,50,52,0,0,
+23,22,0,0,0,0,16,16,0,0,
+0,0,0,0,0,0,0,233,234,235,
+0,0,0,0,0,0,0,241,242,243,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,3,1,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Wall" width="10" height="10">
+  <data encoding="csv">
+138,138,138,138,138,138,138,138,138,138,
+29,29,29,138,138,138,138,138,138,138,
+0,0,0,29,29,29,138,138,29,29,
+0,0,0,0,0,0,28,28,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Props2" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,6,0,0,0,0,0,0,0,
+0,53,0,46,46,46,0,0,46,46,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,8,8,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,7,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="WallProps" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+6,0,145,0,0,0,0,0,0,0,
+0,0,0,6,0,145,0,0,147,6,
+0,0,0,0,0,0,6,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
