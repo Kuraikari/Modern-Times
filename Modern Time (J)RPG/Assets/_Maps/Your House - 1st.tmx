@@ -19,6 +19,16 @@
   </tile>
   <tile id="9" terrain=",,1,1"/>
   <tile id="10" terrain="1,1,,"/>
+  <tile id="14">
+   <objectgroup draworder="index">
+    <object id="2" x="-0.5" y="9.25">
+     <polygon points="0,0.75 0.625,1.75 32.75,-8.75 30.75,-9.625"/>
+    </object>
+    <object id="3" x="32.25" y="15.625">
+     <polygon points="0,1 -32.75,11.875 -32.375,14.125 0,14.375"/>
+    </object>
+   </objectgroup>
+  </tile>
   <tile id="15">
    <objectgroup draworder="index">
     <object id="1" x="8.75" y="0" width="2.125" height="3.125"/>
@@ -49,17 +59,17 @@
   </tile>
   <tile id="49" terrain="0,0,0,0">
    <objectgroup draworder="index">
-    <object id="1" x="8.375" y="3.875" width="23.375" height="21.875"/>
+    <object id="1" x="8.625" y="3.875" width="23.25" height="21.875"/>
    </objectgroup>
   </tile>
   <tile id="50" terrain="0,0,0,0">
    <objectgroup draworder="index">
-    <object id="1" x="-0.25" y="3.875" width="32.375" height="21.875"/>
+    <object id="1" x="-0.125" y="4.125" width="31.875" height="21.875"/>
    </objectgroup>
   </tile>
   <tile id="51" terrain="0,0,0,0">
    <objectgroup draworder="index">
-    <object id="1" x="0" y="4.125" width="23.75" height="21.625"/>
+    <object id="1" x="-0.125" y="4.125" width="24.375" height="21.875"/>
    </objectgroup>
   </tile>
   <tile id="52">
@@ -85,47 +95,73 @@
  </tileset>
  <tileset firstgid="129" name="tileset" tilewidth="32" tileheight="32" tilecount="128" columns="8">
   <image source="../Sprites/tileset.png" width="256" height="512"/>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.125" y="6.125">
+     <polygon points="0,0 0.25,25.625 24.625,25.75"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="1" x="0.125" y="-0.125" width="31.875" height="32.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <objectgroup draworder="index">
+    <object id="1" x="8.25" y="-0.375">
+     <polygon points="-1.5,0.125 24,0.25 23.625,25.5"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <objectgroup draworder="index">
+    <object id="1" x="0.125" y="-0.125">
+     <polygon points="0,0 0,24.125 24.375,0.25"/>
+    </object>
+   </objectgroup>
+  </tile>
   <tile id="104">
    <objectgroup draworder="index">
-    <object id="2" x="7.25" y="7.875" width="24.625" height="24.375"/>
+    <object id="1" x="8.125" y="7.625" width="23.75" height="24.375"/>
    </objectgroup>
   </tile>
   <tile id="105">
    <objectgroup draworder="index">
-    <object id="1" x="-0.625" y="7.5" width="33.25" height="24.5"/>
+    <object id="1" x="-0.25" y="7.625" width="32.375" height="24.375"/>
    </objectgroup>
   </tile>
   <tile id="106">
    <objectgroup draworder="index">
-    <object id="1" x="-0.125" y="7.875" width="23" height="24.125"/>
+    <object id="1" x="-0.25" y="7.875" width="23.5" height="24.125"/>
    </objectgroup>
   </tile>
   <tile id="112">
    <objectgroup draworder="index">
-    <object id="1" x="8.125" y="-1.75" width="23.625" height="22.25"/>
+    <object id="1" x="8" y="-0.25" width="24" height="21"/>
    </objectgroup>
   </tile>
   <tile id="113">
    <objectgroup draworder="index">
-    <object id="1" x="-0.625" y="-0.875" width="32.875" height="19.25"/>
+    <object id="1" x="-0.25" y="0.125" width="32.375" height="19"/>
    </objectgroup>
   </tile>
   <tile id="114">
    <objectgroup draworder="index">
-    <object id="1" x="0.125" y="-3.5" width="23" height="23.625"/>
+    <object id="1" x="-0.375" y="-0.125" width="23.125" height="21.375"/>
    </objectgroup>
   </tile>
  </tileset>
  <layer name="Ground" width="10" height="10">
   <data encoding="csv">
 20,20,20,20,20,20,20,20,20,20,
+20,20,20,20,20,20,20,20,20,20,
+21,21,21,20,20,20,21,21,21,21,
+21,20,20,21,21,21,20,20,20,20,
 21,20,20,20,20,20,20,20,20,20,
-21,21,21,20,20,20,20,20,20,20,
-21,20,20,21,21,21,20,20,21,21,
-21,20,20,20,20,20,21,21,20,20,
 21,20,20,20,20,20,20,20,20,20,
-21,20,20,20,20,20,20,20,21,21,
-21,20,20,20,20,20,20,20,21,21,
+21,20,20,20,20,20,20,20,20,20,
+21,20,20,20,20,20,20,20,20,20,
 21,20,20,20,20,20,20,20,20,20,
 21,20,20,20,20,20,20,20,20,20
 </data>
@@ -134,26 +170,26 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-50,51,52,0,0,0,0,0,0,0,
-0,0,0,54,54,54,0,0,54,54,
-0,0,0,0,0,0,50,52,0,0,
-23,22,0,0,0,0,16,16,0,0,
-0,0,0,0,0,0,0,233,234,235,
-0,0,0,0,0,0,0,241,242,243,
+50,51,52,0,0,0,50,51,52,0,
+0,0,0,241,242,243,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,3,1,0,0,0,0
+0,22,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <layer name="Wall" width="10" height="10">
   <data encoding="csv">
 138,138,138,138,138,138,138,138,138,138,
-29,29,29,138,138,138,138,138,138,138,
-0,0,0,29,29,29,138,138,29,29,
-0,0,0,0,0,0,28,28,0,0,
+29,29,29,138,138,138,29,29,29,29,
+0,0,0,28,28,28,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,130,130,130,130,
+0,0,0,0,0,0,28,28,28,28,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0
 </data>
@@ -161,29 +197,29 @@
  <layer name="Props2" width="10" height="10">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
-6,0,6,0,0,0,0,0,0,0,
-0,53,0,46,46,46,0,0,46,46,
+6,46,6,0,0,0,6,0,0,6,
+0,54,0,233,234,235,0,8,0,0,
+0,0,0,8,8,8,0,16,0,0,
+0,0,0,16,16,16,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,8,8,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,7,0,
-0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,8,8,8,8,
+0,0,0,0,0,0,16,16,16,16,
 0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <layer name="WallProps" width="10" height="10">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
-147,0,145,0,0,0,0,0,0,0,
-0,0,0,6,0,145,0,0,147,145,
-0,0,0,0,0,0,6,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,
-131,0,0,0,0,0,0,0,0,129
+147,0,145,0,0,0,147,0,0,137,
+0,0,0,0,0,0,0,53,0,137,
+0,0,0,0,0,0,0,0,0,137,
+0,0,0,0,0,0,0,0,0,137,
+0,0,0,0,0,0,0,0,0,137,
+0,0,0,0,0,0,138,138,138,138,
+0,0,0,0,0,0,0,0,0,137,
+131,0,0,0,0,0,0,0,0,137,
+138,138,138,138,138,138,138,138,138,138
 </data>
  </layer>
 </map>
