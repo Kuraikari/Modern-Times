@@ -5,10 +5,17 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * This repository is for the unity game, the new project of KOA.
-* 0.3.8a
-
+* 0.4.5a
 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### Meta ###
+* Author: Zian Wermelinger aka "Kuraikari"
+* Project Name: Modern Times (J)RPG
+* Project Type: 2d-(J)RPG with Dating- and Economy-Simulation parts
+* Language: English and later on maybe Japanese and/or German.
+* Programming Language: C# and some Javascript
+* Dev-Environment: GIMP, FL Studio, Audacity, Tiled, Tiled2Unity, Unity, Visual Studio, SourceTree
 
 ### How do I get set up? ###
 
@@ -50,11 +57,19 @@ This README would normally document whatever steps are necessary to get your app
 * Ability Management
 * Economy System (Currency Exchange, Vendor)
 
+#### Maps ####
+* Player Home(2 levels) 
+* Street (1)
+* Mart or Bank (Not sure yet which exact purpose for it)
+* School Interior
+* School Exterior
+
+
 ### Coming up ###
 * Relationships System
 * Banking, Trading for Economy System
 * Fighting System
-* New Maps ( Street, Player Home, Emergency, Mart etc etc)
+* New Maps ( some Streets, Emergency, etc etc)
 * New Sprites
 * Some UI changes
 * Lots of Bugfixes
