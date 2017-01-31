@@ -111,7 +111,7 @@ namespace Tiled2Unity
 
         public static string GetAttributeAsFullPath(XElement elem, string attrName)
         {
-            return Path.GetFullPath(elem.Attribute(attrName).Value);
+            return System.IO.Path.GetFullPath(elem.Attribute(attrName).Value);
         }
 
         public static void ReadyToWrite(string path)
