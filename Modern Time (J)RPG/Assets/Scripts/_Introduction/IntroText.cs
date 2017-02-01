@@ -19,7 +19,7 @@ public class IntroText : MonoBehaviour {
         ir.newTxt("It would be nice if you could answer our questions to provide us with the missing data. We would appreciate your help.");
 
         //Create Intro Questions
-        ir.newQA("", "");
+        ir.newQA("What is your favorite food?", new Interest());
     }
 
 
@@ -36,3 +36,4 @@ public class IntroText : MonoBehaviour {
 
     }
 }
+
