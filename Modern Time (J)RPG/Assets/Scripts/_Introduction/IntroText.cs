@@ -8,9 +8,12 @@ public class IntroText : MonoBehaviour {
     public string speaker;
     public Intro ir;
     public Text textField;
+    public SocialManager sm;
 
     public void createIntro()
     {
+        List<Interest> interests = sm.createInterests();
+
         //Create Intro Text
         ir.newTxt("Hello, there");
         ir.newTxt("Welcome to the world of Modern Times!");
@@ -19,7 +22,8 @@ public class IntroText : MonoBehaviour {
         ir.newTxt("It would be nice if you could answer our questions to provide us with the missing data. We would appreciate your help.");
 
         //Create Intro Questions
-        ir.newQA("What is your favorite food?", new Interest());
+        ir.newQA("What is your favorite food?", interests.Find(x => x.category.Contains("FOOD")));
+        ir.newQA("What is your favorite drink?", interests.Find(x => x.category.Contains("DRINKS")));
     }
 
 

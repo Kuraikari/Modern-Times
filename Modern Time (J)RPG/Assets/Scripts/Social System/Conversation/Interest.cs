@@ -4,9 +4,9 @@ using UnityEditor;
 [System.Serializable]
 public class Interest
 {
-    int id { get; set; }
-    string name { get; set; }
-    string category { get; set; }
+    public int id { get; set; }
+    public string name { get; set; }
+    public string category { get; set; }
 
     public Interest()
     {
