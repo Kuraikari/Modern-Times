@@ -7,6 +7,7 @@ public class Interest
     public int id { get; set; }
     public string name { get; set; }
     public string category { get; set; }
+    public string subCategory { get; set; }
 
     public Interest()
     {
@@ -26,15 +27,25 @@ public class Interest
         this.category = category;
     }
 
+    public Interest(int id, string name, string category, string subCategory)
+    {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.subCategory = subCategory;
+    }
+
     //getters
     public int getID() { return id; }
     public string getName() { return name; }
     public string getCategory() { return category; }
+    public string getSubCategory() { return subCategory; }
 
     //setters
     public void setID(int id) { this.id = id; }
     public void setName(string name) { this.name = name; }
     public void setCategory(string cat) { this.category = cat; }
+    public void setSubCategory(string sub) { this.subCategory = sub; }
 
     //Create
     public Interest newInterest(int id, string name)
