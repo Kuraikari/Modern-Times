@@ -91,6 +91,75 @@ public class SocialManager{
         interests.Add(new Interest(110, "SCOTCH", "DRINKS"));
         interests.Add(new Interest(111, "CHERRY", "DRINKS"));
         interests.Add(new Interest(112, "SILVER BULLET", "DRINKS"));
+        interests.Add(new Interest(113, "WINE", "DRINKS"));
+        interests.Add(new Interest(114, "", "DRINKS"));
+        interests.Add(new Interest(115, "", "DRINKS"));
+        interests.Add(new Interest(116, "", "DRINKS"));
+        interests.Add(new Interest(117, "", "DRINKS"));
+        interests.Add(new Interest(118, "", "DRINKS"));
+
+        //SPORTS
+        interests.Add(new Interest(121, "BOWLING", "SPORTS"));
+        interests.Add(new Interest(122, "CHESS", "SPORTS"));
+        interests.Add(new Interest(123, "BASEBALL", "SPORTS"));
+        interests.Add(new Interest(124, "VOLLEYBALL", "SPORTS"));
+        interests.Add(new Interest(125, "BASKETBALL", "SPORTS"));
+        interests.Add(new Interest(126, "FOOTBALL", "SPORTS"));
+        interests.Add(new Interest(127, "SOCCER", "SPORTS"));
+        interests.Add(new Interest(128, "TENNIS", "SPORTS"));
+        interests.Add(new Interest(129, "BADMINTON", "SPORTS"));
+        interests.Add(new Interest(130, "PINGPONG", "SPORTS"));
+        interests.Add(new Interest(131, "CURLING", "SPORTS"));
+        interests.Add(new Interest(132, "ICE HOCKEY", "SPORTS"));
+        interests.Add(new Interest(133, "EQUESTRIANISM", "SPORTS"));
+        interests.Add(new Interest(134, "CROQUET", "SPORTS"));
+        interests.Add(new Interest(135, "CRICKET", "SPORTS"));
+        interests.Add(new Interest(136, "SURFING", "SPORTS"));
+        interests.Add(new Interest(137, "FREERUN", "SPORTS"));
+        interests.Add(new Interest(138, "YOGA", "SPORTS"));
+
+        //MARTIAL ARTS
+        interests.Add(new Interest(141, "WING TSUN", "MARTIAL ARTS"));
+        interests.Add(new Interest(142, "KRAV MAGA", "MARTIAL ARTS"));
+        interests.Add(new Interest(143, "CAPOEIRA", "MARTIAL ARTS"));
+        interests.Add(new Interest(144, "KUNG-FU", "MARTIAL ARTS"));
+        interests.Add(new Interest(145, "KARATE", "MARTIAL ARTS"));
+        interests.Add(new Interest(146, "JUDO", "MARTIAL ARTS"));
+        interests.Add(new Interest(147, "KENDO", "MARTIAL ARTS"));
+        interests.Add(new Interest(148, "IAIDO", "MARTIAL ARTS"));
+        interests.Add(new Interest(149, "JUJUTSU", "MARTIAL ARTS"));
+        interests.Add(new Interest(150, "TAEKWONDO", "MARTIAL ARTS"));
+        interests.Add(new Interest(151, "SUMO", "MARTIAL ARTS"));
+        interests.Add(new Interest(152, "BOXING", "MARTIAL ARTS"));
+        interests.Add(new Interest(153, "KICKBOXING", "MARTIAL ARTS"));
+        interests.Add(new Interest(154, "THAIBOXING", "MARTIAL ARTS"));
+        interests.Add(new Interest(155, "BAFAQUAN", "MARTIAL ARTS"));
+        interests.Add(new Interest(156, "BAYINGQUAN", "MARTIAL ARTS"));
+        interests.Add(new Interest(157, "FENG SHOU", "MARTIAL ARTS"));
+        interests.Add(new Interest(158, "SHOURINJI KENPO", "MARTIAL ARTS"));
+        interests.Add(new Interest(159, "RUSSIAN BOXING", "MARTIAL ARTS"));
+        interests.Add(new Interest(160, "KYUUDOU", "MARTIAL ARTS"));
+        interests.Add(new Interest(161, "NAGINATAJUTSU", "MARTIAL ARTS"));
+        interests.Add(new Interest(162, "NIPPON KENPO", "MARTIAL ARTS"));
+        interests.Add(new Interest(163, "NINJUTSU", "MARTIAL ARTS"));
+        interests.Add(new Interest(164, "BOUJUTSU", "MARTIAL ARTS"));
+        interests.Add(new Interest(165, "VAJRA-MUSHTI", "MARTIAL ARTS"));
+        interests.Add(new Interest(166, "JEET KUNE DO", "MARTIAL ARTS"));
+        interests.Add(new Interest(167, "S.C.A.R.S", "MARTIAL ARTS"));
+        interests.Add(new Interest(168, "KAJUKENBO", "MARTIAL ARTS"));
+
+        //ARTCRAFT
+        interests.Add(new Interest(181, "DESIGNING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "COOKING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "KNITTING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "SEWING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "DRAWING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "CRAFTING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "SMITHING", "ARTCRAFT"));
+        interests.Add(new Interest(181, "", "ARTCRAFT"));
+        interests.Add(new Interest(181, "", "ARTCRAFT"));
+        interests.Add(new Interest(181, "", "ARTCRAFT"));
+
 
 
         return createInterests();
