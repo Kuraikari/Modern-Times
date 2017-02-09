@@ -331,343 +331,570 @@ public class SocialManager{
 
         //TV-SHOWS
             //HORROR
-            interests.Add(new Interest(311, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(312, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(313, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(314, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(315, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(316, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(317, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(318, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(319, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(320, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(311, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(312, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(313, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(314, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(315, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(316, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(317, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(318, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(319, "", "TV-SHOWS", "HORROR"));
+            interests.Add(new Interest(320, "", "TV-SHOWS", "HORROR"));
 
             //THRILLER
-            interests.Add(new Interest(321, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(322, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(323, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(324, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(325, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(326, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(327, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(328, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(329, "", "MOVIES", "THRILLER"));
-            interests.Add(new Interest(330, "", "MOVIES", "THRILLER"));
+            interests.Add(new Interest(321, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(322, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(323, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(324, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(325, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(326, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(327, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(328, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(329, "", "TV-SHOWS", "THRILLER"));
+            interests.Add(new Interest(330, "", "TV-SHOWS", "THRILLER"));
 
             //DRAMA
-            interests.Add(new Interest(331, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(332, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(333, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(334, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(335, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(336, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(337, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(338, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(339, "", "MOVIES", "DRAMA"));
-            interests.Add(new Interest(340, "", "MOVIES", "DRAMA"));
+            interests.Add(new Interest(331, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(332, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(333, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(334, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(335, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(336, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(337, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(338, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(339, "", "TV-SHOWS", "DRAMA"));
+            interests.Add(new Interest(340, "", "TV-SHOWS", "DRAMA"));
 
             //COMEDY
-            interests.Add(new Interest(341, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(342, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(343, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(344, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(345, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(346, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(347, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(348, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(349, "", "MOVIES", "COMEDY"));
-            interests.Add(new Interest(350, "", "MOVIES", "COMEDY"));
+            interests.Add(new Interest(341, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(342, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(343, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(344, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(345, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(346, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(347, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(348, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(349, "", "TV-SHOWS", "COMEDY"));
+            interests.Add(new Interest(350, "", "TV-SHOWS", "COMEDY"));
 
             //ACTION
-            interests.Add(new Interest(351, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(352, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(353, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(354, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(355, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(356, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(357, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(358, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(359, "", "MOVIES", "ACTION"));
-            interests.Add(new Interest(360, "", "MOVIES", "ACTION"));
+            interests.Add(new Interest(351, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(352, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(353, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(354, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(355, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(356, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(357, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(358, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(359, "", "TV-SHOWS", "ACTION"));
+            interests.Add(new Interest(360, "", "TV-SHOWS", "ACTION"));
     
             //KIDS
-            interests.Add(new Interest(361, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(362, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(363, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(364, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(365, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(366, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(367, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(368, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(369, "", "MOVIES", "KIDS"));
-            interests.Add(new Interest(370, "", "MOVIES", "KIDS"));
+            interests.Add(new Interest(361, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(362, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(363, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(364, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(365, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(366, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(367, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(368, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(369, "", "TV-SHOWS", "KIDS"));
+            interests.Add(new Interest(370, "", "TV-SHOWS", "KIDS"));
 
             //FANTASY
-            interests.Add(new Interest(371, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(372, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(373, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(374, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(375, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(376, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(377, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(378, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(379, "", "MOVIES", "FANTASY"));
-            interests.Add(new Interest(380, "", "MOVIES", "FANTASY"));
+            interests.Add(new Interest(371, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(372, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(373, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(374, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(375, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(376, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(377, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(378, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(379, "", "TV-SHOWS", "FANTASY"));
+            interests.Add(new Interest(380, "", "TV-SHOWS", "FANTASY"));
 
             //SCI-FI
-            interests.Add(new Interest(381, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(382, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(383, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(384, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(385, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(386, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(387, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(388, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(389, "", "MOVIES", "SCI-FI"));
-            interests.Add(new Interest(390, "", "MOVIES", "SCI-FI"));
+            interests.Add(new Interest(381, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(382, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(383, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(384, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(385, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(386, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(387, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(388, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(389, "", "TV-SHOWS", "SCI-FI"));
+            interests.Add(new Interest(390, "", "TV-SHOWS", "SCI-FI"));
 
             //ROMANCE
-            interests.Add(new Interest(391, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(392, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(393, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(394, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(395, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(396, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(397, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(398, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(399, "", "MOVIES", "ROMANCE"));
-            interests.Add(new Interest(400, "", "MOVIES", "ROMANCE"));
+            interests.Add(new Interest(391, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(392, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(393, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(394, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(395, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(396, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(397, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(398, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(399, "", "TV-SHOWS", "ROMANCE"));
+            interests.Add(new Interest(400, "", "TV-SHOWS", "ROMANCE"));
 
-        //ANIMES
+        //ANIME
             //HORROR
-            interests.Add(new Interest(401, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(402, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(403, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(404, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(405, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(406, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(407, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(408, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(409, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(410, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(401, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(402, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(403, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(404, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(405, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(406, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(407, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(408, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(409, "", "ANIME", "HORROR"));
+            interests.Add(new Interest(410, "", "ANIME", "HORROR"));
 
             //PSYCHOLOGICAL
-            interests.Add(new Interest(411, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(412, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(413, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(414, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(415, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(416, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(417, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(418, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(419, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(420, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(411, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(412, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(413, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(414, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(415, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(416, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(417, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(418, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(419, "", "ANIME", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(420, "", "ANIME", "PSYCHOLOGICAL"));
 
             //DRAMA
-            interests.Add(new Interest(421, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(422, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(423, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(424, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(425, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(426, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(427, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(428, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(429, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(430, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(421, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(422, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(423, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(424, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(425, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(426, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(427, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(428, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(429, "", "ANIME", "DRAMA"));
+            interests.Add(new Interest(430, "", "ANIME", "DRAMA"));
 
             //COMEDY
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(431, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(432, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(433, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(434, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(435, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(436, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(437, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(438, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(439, "", "ANIME", "COMEDY"));
+            interests.Add(new Interest(440, "", "ANIME", "COMEDY"));
 
             //ACTION
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(441, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(442, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(443, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(444, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(445, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(446, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(447, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(448, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(449, "", "ANIME", "ACTION"));
+            interests.Add(new Interest(450, "", "ANIME", "ACTION"));
 
             //KIDS
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(451, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(452, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(453, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(454, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(455, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(456, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(457, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(458, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(459, "", "ANIME", "KIDS"));
+            interests.Add(new Interest(460, "", "ANIME", "KIDS"));
 
             //FANTASY
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(461, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(462, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(463, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(464, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(465, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(466, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(467, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(468, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(469, "", "ANIME", "FANTASY"));
+            interests.Add(new Interest(470, "", "ANIME", "FANTASY"));
 
             //GAME
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(471, "", "ANIME", "GAME"));
+            interests.Add(new Interest(472, "", "ANIME", "GAME"));
+            interests.Add(new Interest(473, "", "ANIME", "GAME"));
+            interests.Add(new Interest(474, "", "ANIME", "GAME"));
+            interests.Add(new Interest(475, "", "ANIME", "GAME"));
+            interests.Add(new Interest(476, "", "ANIME", "GAME"));
+            interests.Add(new Interest(477, "", "ANIME", "GAME"));
+            interests.Add(new Interest(478, "", "ANIME", "GAME"));
+            interests.Add(new Interest(479, "", "ANIME", "GAME"));
+            interests.Add(new Interest(480, "", "ANIME", "GAME"));
 
             //ROMANCE
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(481, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(482, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(483, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(484, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(485, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(486, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(487, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(488, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(489, "", "ANIME", "ROMANCE"));
+            interests.Add(new Interest(490, "", "ANIME", "ROMANCE"));
 
             //SHOUNEN
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(491, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(492, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(493, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(494, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(495, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(496, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(497, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(498, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(499, "", "ANIME", "SHOUNEN"));
+            interests.Add(new Interest(500, "", "ANIME", "SHOUNEN"));
 
             //SHOUJOU
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(501, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(502, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(503, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(504, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(505, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(506, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(507, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(508, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(509, "", "ANIME", "SHOUJOU"));
+            interests.Add(new Interest(510, "", "ANIME", "SHOUJOU"));
 
             //YAOI
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(511, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(512, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(513, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(514, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(515, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(516, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(517, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(518, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(519, "", "ANIME", "YAOI"));
+            interests.Add(new Interest(520, "", "ANIME", "YAOI"));
 
             //YURI
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(521, "", "ANIME", "YURI"));
+            interests.Add(new Interest(522, "", "ANIME", "YURI"));
+            interests.Add(new Interest(523, "", "ANIME", "YURI"));
+            interests.Add(new Interest(524, "", "ANIME", "YURI"));
+            interests.Add(new Interest(525, "", "ANIME", "YURI"));
+            interests.Add(new Interest(526, "", "ANIME", "YURI"));
+            interests.Add(new Interest(527, "", "ANIME", "YURI"));
+            interests.Add(new Interest(528, "", "ANIME", "YURI"));
+            interests.Add(new Interest(529, "", "ANIME", "YURI"));
+            interests.Add(new Interest(530, "", "ANIME", "YURI"));
 
             //ECCHI
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(531, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(532, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(533, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(534, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(535, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(536, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(537, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(538, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(539, "", "ANIME", "ECCHI"));
+            interests.Add(new Interest(540, "", "ANIME", "ECCHI"));
 
             //SLICE OF LIFE
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(541, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(542, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(543, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(544, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(545, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(546, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(547, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(548, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(549, "", "ANIME", "SLICE OF LIFE"));
+            interests.Add(new Interest(550, "", "ANIME", "SLICE OF LIFE"));
 
             //MAGIC
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(551, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(552, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(553, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(554, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(555, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(556, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(557, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(558, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(559, "", "ANIME", "MAGIC"));
+            interests.Add(new Interest(560, "", "ANIME", "MAGIC"));
 
             //MYSTERY
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(561, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(562, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(563, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(564, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(565, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(566, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(567, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(568, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(569, "", "ANIME", "MYSTERY"));
+            interests.Add(new Interest(570, "", "ANIME", "MYSTERY"));
 
             //SUPER POWER
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(201, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(202, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(203, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(204, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(205, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(206, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(207, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(208, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(209, "", "ANIME", "SUPER POWER"));
+            interests.Add(new Interest(210, "", "ANIME", "SUPER POWER"));
 
             //SPORTS
-            interests.Add(new Interest(201, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(202, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(203, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(204, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(205, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(206, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(207, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(208, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(209, "", "MOVIES", "HORROR"));
-            interests.Add(new Interest(210, "", "MOVIES", "HORROR"));
+            interests.Add(new Interest(201, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(202, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(203, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(204, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(205, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(206, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(207, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(208, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(209, "", "ANIME", "SPORTS"));
+            interests.Add(new Interest(210, "", "ANIME", "SPORTS"));
 
         //MANGAS
+            //HORROR
+            interests.Add(new Interest(401, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(402, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(403, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(404, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(405, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(406, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(407, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(408, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(409, "", "MANGAS", "HORROR"));
+            interests.Add(new Interest(410, "", "MANGAS", "HORROR"));
+
+            //PSYCHOLOGICAL
+            interests.Add(new Interest(411, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(412, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(413, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(414, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(415, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(416, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(417, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(418, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(419, "", "MANGAS", "PSYCHOLOGICAL"));
+            interests.Add(new Interest(420, "", "MANGAS", "PSYCHOLOGICAL"));
+
+            //DRAMA
+            interests.Add(new Interest(421, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(422, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(423, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(424, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(425, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(426, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(427, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(428, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(429, "", "MANGAS", "DRAMA"));
+            interests.Add(new Interest(430, "", "MANGAS", "DRAMA"));
+
+            //COMEDY
+            interests.Add(new Interest(201, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(202, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(203, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(204, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(205, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(206, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(207, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(208, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(209, "", "MANGAS", "COMEDY"));
+            interests.Add(new Interest(210, "", "MANGAS", "COMEDY"));
+
+            //ACTION
+            interests.Add(new Interest(201, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(202, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(203, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(204, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(205, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(206, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(207, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(208, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(209, "", "MANGAS", "ACTION"));
+            interests.Add(new Interest(210, "", "MANGAS", "ACTION"));
+
+            //KIDS
+            interests.Add(new Interest(201, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(202, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(203, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(204, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(205, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(206, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(207, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(208, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(209, "", "MANGAS", "KIDS"));
+            interests.Add(new Interest(210, "", "MANGAS", "KIDS"));
+
+            //FANTASY
+            interests.Add(new Interest(201, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(202, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(203, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(204, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(205, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(206, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(207, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(208, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(209, "", "MANGAS", "FANTASY"));
+            interests.Add(new Interest(210, "", "MANGAS", "FANTASY"));
+
+            //GAME
+            interests.Add(new Interest(201, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(202, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(203, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(204, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(205, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(206, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(207, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(208, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(209, "", "MANGAS", "GAME"));
+            interests.Add(new Interest(210, "", "MANGAS", "GAME"));
+
+            //ROMANCE
+            interests.Add(new Interest(201, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(202, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(203, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(204, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(205, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(206, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(207, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(208, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(209, "", "MANGAS", "ROMANCE"));
+            interests.Add(new Interest(210, "", "MANGAS", "ROMANCE"));
+
+            //SHOUNEN
+            interests.Add(new Interest(201, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(202, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(203, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(204, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(205, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(206, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(207, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(208, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(209, "", "MANGAS", "SHOUNEN"));
+            interests.Add(new Interest(210, "", "MANGAS", "SHOUNEN"));
+
+            //SHOUJOU
+            interests.Add(new Interest(201, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(202, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(203, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(204, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(205, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(206, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(207, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(208, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(209, "", "MANGAS", "SHOUJOU"));
+            interests.Add(new Interest(210, "", "MANGAS", "SHOUJOU"));
+
+            //YAOI
+            interests.Add(new Interest(201, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(202, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(203, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(204, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(205, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(206, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(207, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(208, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(209, "", "MANGAS", "YAOI"));
+            interests.Add(new Interest(210, "", "MANGAS", "YAOI"));
+
+            //YURI
+            interests.Add(new Interest(201, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(202, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(203, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(204, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(205, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(206, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(207, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(208, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(209, "", "MANGAS", "YURI"));
+            interests.Add(new Interest(210, "", "MANGAS", "YURI"));
+
+            //ECCHI
+            interests.Add(new Interest(201, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(202, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(203, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(204, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(205, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(206, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(207, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(208, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(209, "", "MANGAS", "ECCHI"));
+            interests.Add(new Interest(210, "", "MANGAS", "ECCHI"));
+
+            //SLICE OF LIFE
+            interests.Add(new Interest(201, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(202, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(203, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(204, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(205, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(206, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(207, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(208, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(209, "", "MANGAS", "SLICE OF LIFE"));
+            interests.Add(new Interest(210, "", "MANGAS", "SLICE OF LIFE"));
+
+            //MAGIC
+            interests.Add(new Interest(201, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(202, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(203, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(204, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(205, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(206, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(207, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(208, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(209, "", "MANGAS", "MAGIC"));
+            interests.Add(new Interest(210, "", "MANGAS", "MAGIC"));
+
+            //MYSTERY
+            interests.Add(new Interest(201, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(202, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(203, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(204, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(205, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(206, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(207, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(208, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(209, "", "MANGAS", "MYSTERY"));
+            interests.Add(new Interest(210, "", "MANGAS", "MYSTERY"));
+
+            //SUPER POWER
+            interests.Add(new Interest(201, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(202, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(203, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(204, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(205, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(206, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(207, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(208, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(209, "", "MANGAS", "SUPER POWER"));
+            interests.Add(new Interest(210, "", "MANGAS", "SUPER POWER"));
+
+            //SPORTS
+            interests.Add(new Interest(201, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(202, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(203, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(204, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(205, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(206, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(207, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(208, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(209, "", "MANGAS", "SPORTS"));
+            interests.Add(new Interest(210, "", "MANGAS", "SPORTS"));
 
         //CARTOONS
 
