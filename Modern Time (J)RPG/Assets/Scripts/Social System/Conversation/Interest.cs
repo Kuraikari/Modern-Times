@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEditor;
 
 [System.Serializable]
@@ -8,6 +9,9 @@ public class Interest
     public string name { get; set; }
     public string category { get; set; }
     public string subCategory { get; set; }
+
+    public List<string> categories;
+    public List<string> subCategories;
 
     public Interest()
     {
@@ -25,6 +29,10 @@ public class Interest
         this.id = id;
         this.name = name;
         this.category = category;
+
+        if (isCatAlreadyExisting(category) == false)
+            categories.Add(category);
+
     }
 
     public Interest(int id, string name, string category, string subCategory)
@@ -33,6 +41,12 @@ public class Interest
         this.name = name;
         this.category = category;
         this.subCategory = subCategory;
+
+        if (isCatAlreadyExisting(category) == false)
+            categories.Add(category);
+
+        if (isSubCatAlreadyExisting(subCategory) == false)
+            subCategories.Add(subCategory);
     }
 
     //getters
@@ -53,5 +67,15 @@ public class Interest
         int thisID = id;
         string thisName = name;
         return newInterest(thisID, thisName);
+    }
+
+    public bool isCatAlreadyExisting(string cat)
+    {
+        return (categories.Contains(cat));
+    }
+
+    public bool isSubCatAlreadyExisting(string cat)
+    {
+        return (subCategories.Contains(cat));
     }
 }

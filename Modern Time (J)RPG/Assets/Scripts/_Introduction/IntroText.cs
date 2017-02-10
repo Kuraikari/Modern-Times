@@ -24,6 +24,14 @@ public class IntroText : MonoBehaviour {
         //Create Intro Questions
         ir.newQA("What is your favorite food?", interests.Find(x => x.category.Contains("FOOD")));
         ir.newQA("What is your favorite drink?", interests.Find(x => x.category.Contains("DRINKS")));
+        ir.newQA("What is your favorite sport?", interests.Find(x => x.category.Contains("SPORTS")));
+        ir.newQA("What is your favorite martial art?", interests.Find(x => x.category.Contains("MARTIAL ARTS")));
+        ir.newQA("What is your favorite artcraft?", interests.Find(x => x.category.Contains("ARTCRAFT")));
+        ir.newQA("What is your favorite movie genre?", interests.Find(x => x.category.Contains("MOVIE")));
+        ir.newQA("What is your favorite anime?", interests.Find(x => x.category.Contains("ANIME")));
+        ir.newQA("What is your favorite manga?", interests.Find(x => x.category.Contains("MANGA")));
+        ir.newQA("What is your favorite book?", interests.Find(x => x.category.Contains("BOOKS")));
+        ir.newQA("What is your favorite game?", interests.Find(x => x.category.Contains("GAMES")));
     }
 
 
