@@ -7,12 +7,12 @@ using System;
 public class Intro
 {
     public List<string> introTexts = new List<string>();
-    public Dictionary<string, System.Object> introQA = new Dictionary<string, System.Object>();
+    public Dictionary<string, List<Interest>> introQA = new Dictionary<string, List<Interest>>();
     public void newTxt(string text) {
         introTexts.Add(text);
     }
 
-    public void newQA(string quest, System.Object answer)
+    public void newQA(string quest, List<Interest> answer)
     {
         introQA.Add(quest, answer);
     }

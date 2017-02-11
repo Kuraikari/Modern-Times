@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SocialManager{
 
-    List<Interest> interests = new List<Interest>();
+    public List<Interest> interests = new List<Interest>();
 
-    public List<Interest> createInterests()
+    public void createInterests()
     {
         //DEFAULT
         interests.Add(new Interest(0, "INTERESTS", "DEFAULT"));
@@ -1143,7 +1143,5 @@ public class SocialManager{
         //TRAVELLING
 
         //OCCULTIC
-
-        return createInterests();
     }
 }

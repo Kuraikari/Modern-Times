@@ -10,8 +10,8 @@ public class Interest
     public string category { get; set; }
     public string subCategory { get; set; }
 
-    public List<string> categories;
-    public List<string> subCategories;
+    public List<string> categories = new List<string>();
+    public List<string> subCategories = new List<string>();
 
     public Interest()
     {
