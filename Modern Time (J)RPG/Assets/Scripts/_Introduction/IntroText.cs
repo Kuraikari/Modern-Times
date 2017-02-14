@@ -11,7 +11,9 @@ public class IntroText : MonoBehaviour {
     public SocialManager sm = new SocialManager();
 
     private List<Interest> interests = new List<Interest>();
+    private List<string> keyList;
     private int counter = 0;
+    private int counter2 = 0;
 
     public void createIntro()
     {
@@ -44,12 +46,21 @@ public class IntroText : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-       
+        keyList = new List<string>(ir.introQA.Keys);
         createIntro();
         createQA();
-    
-		
 	}
+
+    public List<Dropdown.OptionData> createOptionList()
+    {
+        List<Dropdown.OptionData> opdata = new List<Dropdown.OptionData>();
+        foreach (var i in ir.introQA)
+        {
+            opdata.Add(new Dropdown.OptionData(i.Key));
+        }
+
+        return opdata;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -57,12 +68,12 @@ public class IntroText : MonoBehaviour {
             {
                 GameObject.Find("OutputText").GetComponentInChildren<Text>().text = ir.introTexts[counter];
                 counter++;
-            if (counter >= ir.introTexts.Count)
-                counter = 0;
 
-            GameObject.Find("OutputText").GetComponentInChildren<Text>().text = ir.introQA.Keys.ToString();
+                if (counter >= ir.introTexts.Count)
+                    counter = -100;   
+               
+                GameObject.Find("Dropdown").GetComponent<Dropdown>().options = createOptionList();
             }
         }
-        
     }
 
