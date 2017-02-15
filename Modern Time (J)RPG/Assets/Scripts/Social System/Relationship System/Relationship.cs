@@ -51,6 +51,4 @@ public class Relationship {
     public void getPersonB(Character personB) { this.personB = personB; }
     public void getSate(States state) { this.state = state; }
     public void getValue(float value) { this.value = value; }
-
-
 }

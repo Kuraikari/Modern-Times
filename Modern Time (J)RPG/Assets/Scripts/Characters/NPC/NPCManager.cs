@@ -10,20 +10,10 @@ using UnityEngine;
  * ***************************************************************
  * *************************************************************** */
 
-public class NPCManager : MonoBehaviour {
+public class NPCManager{
 
     public List<Character> characters;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
+    
     void createCharacters()
     {
         //Category
@@ -82,9 +72,9 @@ public class NPCManager : MonoBehaviour {
         characters.Add(new Character("Student 20", new NonPlayerCharacter(50, false), 500, 0, 7, 30, 10));
 
         //Teachers
-        characters.Add(new Character("Teacher 01", new NonPlayerCharacter(31, false), 500, 0, 7, 30, 10));
-        characters.Add(new Character("Teacher 02", new NonPlayerCharacter(32, false), 500, 0, 7, 30, 10));
-        characters.Add(new Character("Teacher 03", new NonPlayerCharacter(33, false), 500, 0, 7, 30, 10));
+        characters.Add(new Character("Teacher 01", new NonPlayerCharacter(61, false), 500, 0, 7, 30, 10));
+        characters.Add(new Character("Teacher 02", new NonPlayerCharacter(62, false), 500, 0, 7, 30, 10));
+        characters.Add(new Character("Teacher 03", new NonPlayerCharacter(63, false), 500, 0, 7, 30, 10));
 
         //Category
         characters.Add(new Character("Functional Character", new NonPlayerCharacter(70, false), 10000, 10, 50, 10000, 5000));

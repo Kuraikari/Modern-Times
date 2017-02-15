@@ -4,7 +4,19 @@ using UnityEngine;
 
 public class SocialManager{
 
+    public NPCManager npc = new NPCManager();
+
     public List<Interest> interests = new List<Interest>();
+    public List<Relationship> relationships = new List<Relationship>();
+
+    public void createRelationships()
+    {
+        relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Mom"))));
+        relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Dad"))));
+        relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Brother"))));
+        relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Sister"))));
+        relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Grandpa"))));
+    }
 
     public void createInterests()
     {
