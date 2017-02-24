@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CombatSystem : MonoBehaviour {
 
@@ -17,7 +18,7 @@ public class CombatSystem : MonoBehaviour {
 
     public void retEXP(Enemy enemy)
     {
-        
+        receivedEXP = (enemy.calcEXPOut() * 1+(turnCount/100));
     }
 
 

@@ -1,4 +1,4 @@
-5.5.0f3:2.8.0.0
+5.5.0f3:2.8.2.0
 StandaloneWindows
 D:/Programme/Unity/Editor/Data/Managed/UnityEngine.dll
 D:/Programme/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll

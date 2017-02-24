@@ -7,13 +7,14 @@ public class Enemy : NonPlayerCharacter
     public new string name;
     public float givenEXP;
     public new int level;
+    public float baseHealth;
 
-    public Enemy(int id, string name, float givenEXP, float health, int level)
+    public Enemy(int id, string name, float givenEXP, int level)
     {
         this.id = id;
         this.name = name;
         this.givenEXP = givenEXP;
-        this.health = health;
+        this.baseHealth = healthScaling();
         this.level = level;
     }
 
@@ -27,8 +28,13 @@ public class Enemy : NonPlayerCharacter
         float expOut;
         expOut = givenEXP * (level * 0.75f) / 2.5f;
 
-
         return expOut;
+    }
+
+    public float healthScaling()
+    {
+        float healthscaled = baseHealth + (level * (baseHealth/10));
+        return healthscaled;
     }
 
 }
