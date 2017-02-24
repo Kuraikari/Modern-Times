@@ -8,9 +8,18 @@ public class Enemy : NonPlayerCharacter
     public float givenEXP;
     public new int level;
 
-    public Enemy(int id, string name, float givenEXP, float health, float level) :base(id, name ,false)
+    public Enemy(int id, string name, float givenEXP, float health, int level)
     {
-        
+        this.id = id;
+        this.name = name;
+        this.givenEXP = givenEXP;
+        this.health = health;
+        this.level = level;
+    }
+
+    public Enemy()
+    {
+        id = -1;
     }
 
     public float calcEXPOut()

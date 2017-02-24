@@ -22,14 +22,14 @@ public class Player : Character {
  
     public void setPlayerName()
     {
-        GameObject whatIsYourName = tech.CreateText(GameObject.Find("Canvas").transform, 50, 50, "What is your name?", 16, Color.black);
-        setName(Input.inputString);
-        whatIsYourName.SetActive(false);
-        GameObject areYouSure = tech.CreateText(GameObject.Find("Canvas").transform, 50, 50, "Are you sure?", 16, Color.black);
+        //GameObject whatIsYourName = tech.CreateText(GameObject.Find("Canvas").transform, 50, 50, "What is your name?", 16, Color.black);
+        //setName(Input.inputString);
+        //whatIsYourName.SetActive(false);
+        //GameObject areYouSure = tech.CreateText(GameObject.Find("Canvas").transform, 50, 50, "Are you sure?", 16, Color.black);
 
-        GameObject yes = tech.CreateButton(GameObject.Find("Canvas").transform, 35, 80, 30, 30, new Button.ButtonClickedEvent());
+        //GameObject yes = tech.CreateButton(GameObject.Find("Canvas").transform, 35, 80, 30, 30, new Button.ButtonClickedEvent());
         
-        GameObject no = tech.CreateButton(GameObject.Find("Canvas").transform, 70, 80, 30, 30, new Button.ButtonClickedEvent());
+        //GameObject no = tech.CreateButton(GameObject.Find("Canvas").transform, 70, 80, 30, 30, new Button.ButtonClickedEvent());
     }
 
 }

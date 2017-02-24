@@ -98,6 +98,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Characters\Character.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Characters\NPC\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions\StorageKeeper.cs" />
     <Compile Include="Assets\Scripts\Characters\NPC\Functionality\Functions\TradeMaster.cs" />

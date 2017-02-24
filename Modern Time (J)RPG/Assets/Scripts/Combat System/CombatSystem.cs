@@ -5,7 +5,8 @@ public class CombatSystem : MonoBehaviour {
 
     public AbilityManager am = new AbilityManager();
     public Player player;
-    public Enemy[] enemies;
+    public Waifu waifu;
+    public EnemyManager em;
 
     [Space(10)]
     [Header("In-Game Stats")]
