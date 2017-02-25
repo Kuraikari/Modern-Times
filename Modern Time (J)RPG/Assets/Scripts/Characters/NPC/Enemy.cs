@@ -1,6 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+/************************************************************************
+ * Author: Zian "Kuraikari" Wermelinger                                 *
+ * Project: Modern Times (J)RPG                                         *
+ *                                                                      *
+ * This is the Enemy class. Here is everything related to the enemies'  *
+ * logic. Some things still need to changed though...                   *
+ ************************************************************************/
 public class Enemy : NonPlayerCharacter
 {
     public int id;
@@ -14,8 +22,8 @@ public class Enemy : NonPlayerCharacter
         this.id = id;
         this.name = name;
         this.givenEXP = givenEXP;
-        this.baseHealth = healthScaling();
         this.level = level;
+        this.baseHealth = healthScaling();
     }
 
     public Enemy()
@@ -29,12 +37,6 @@ public class Enemy : NonPlayerCharacter
         expOut = givenEXP * (level * 0.75f) / 2.5f;
 
         return expOut;
-    }
-
-    public float healthScaling()
-    {
-        float healthscaled = baseHealth + (level * (baseHealth/10));
-        return healthscaled;
     }
 
 }

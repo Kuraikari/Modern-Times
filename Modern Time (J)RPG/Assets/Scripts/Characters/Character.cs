@@ -11,13 +11,14 @@ using System.Collections;
 public class Character {
 
     //Attributes
-    private int m_id;
+    public int m_id;
     public string name;
     public Character type;
 
     //Character Attributes...
     public float health;
     public float experience;
+    public float neededEXPForLVLUp;
     public int level;
     public float magicalPower;
     public float physicalPower;
@@ -35,6 +36,18 @@ public class Character {
         this.physicalPower = pp;
     }
 
+    public Character(string name, Character type, float exp, int lvl, float mp, float pp)
+    {
+        newID();
+        this.name = name;
+        this.type = type;
+        this.experience = exp;
+        this.level = lvl;
+        this.magicalPower = mp;
+        this.physicalPower = pp;
+        this.health = healthScaling();
+    }
+
     public Character(string name, Character type)
     {
         newID();
@@ -45,6 +58,25 @@ public class Character {
     public Character()
     {
         m_id = -1;
+    }
+
+    public float healthScaling()
+    {
+        float healthscaled = health + (level * (health / 10f));
+        return healthscaled;
+    }
+
+    public void levelScaling()
+    {
+        neededEXPForLVLUp *= (Mathf.Sqrt(level) / 1.2f);
+    }
+
+    public void checkLVLUp()
+    {
+        if (experience == neededEXPForLVLUp)
+        {
+            level++;
+        }
     }
 
     //Dynamic ID (^-^)/ 
