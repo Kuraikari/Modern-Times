@@ -5,6 +5,7 @@ using System.Collections.Generic;
 /* This codesnippet has the purpose to create the logic for the damaging Abillities. 
  * Which are more or less simpler than the later coming support Abillities.*/
 
+[System.Serializable]
 public class AttackAbillity : Abillity {
 
     //attributes

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class SocialManager{
 
     public NPCManager npc = new NPCManager();
@@ -16,6 +17,16 @@ public class SocialManager{
         relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Brother"))));
         relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Sister"))));
         relationships.Add(new Relationship(new Player(), npc.characters.Find(x => x.name.Contains("Grandpa"))));
+    }
+    
+    public void createNewRelationship(Character a, Character b)
+    {
+        relationships.Add(new Relationship(a, b));
+    }
+
+    public void createNewRelationship(Character a, Character b, States state, float value)
+    {
+        relationships.Add(new Relationship(a, b, state, value));
     }
 
     public void createInterests()

@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class AbilityManager{
 
     //Abilities
-    public List<AttackAbillity> attackAbility;
-    public List<SupportAbillity> supportAbility;
-    public List<GlobalAbillity> globalAbility;
+    public List<AttackAbillity> attackAbility = new List<AttackAbillity>();
+    public List<SupportAbillity> supportAbility = new List<SupportAbillity>();
+    public List<GlobalAbillity> globalAbility = new List<GlobalAbillity>();
 
     //Statuses
-    public List<Status> abilStatus;
+    public List<Status> abilStatus = new List<Status>();
 
     public Character chara;
 
@@ -24,7 +25,7 @@ public class AbilityManager{
         Serializer.Load<List<GlobalAbillity>>("globals.txt");
     }
 
-    public void createEverything()
+    public void createEverything() 
     {
         createStatuses();
         createAbilities();

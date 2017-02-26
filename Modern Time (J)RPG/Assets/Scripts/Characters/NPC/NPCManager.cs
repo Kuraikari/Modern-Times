@@ -10,9 +10,15 @@ using UnityEngine;
  * ***************************************************************
  * *************************************************************** */
 
+[System.Serializable]
 public class NPCManager{
 
     public List<Character> characters;
+
+    void loadCharacters()
+    {
+        Serializer.Load<List<Character>>("characters.txt");
+    }
     
     void createCharacters()
     {
@@ -83,5 +89,10 @@ public class NPCManager{
         characters.Add(new Character("Vendor", new NonPlayerCharacter(71, "Vendor", true, new Functions(0, new Vendor())), 10000, 10, 50, 10000, 5000));
         characters.Add(new Character("TradeMaster", new NonPlayerCharacter(72, "TradeMaster", true, new Functions(0, new TradeMaster())), 10000, 10, 50, 10000, 5000));
         characters.Add(new Character("StorageKeeper", new NonPlayerCharacter(73, "StorageKeeper", true, new Functions(0, new StorageKeeper())), 10000, 10, 50, 10000, 5000));
+
+        //Player
+        characters.Add(new Player());
+
+        Serializer.Save<List<Character>>("characters.txt", characters);
     }
 }

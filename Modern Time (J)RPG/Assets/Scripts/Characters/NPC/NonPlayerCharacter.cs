@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class NonPlayerCharacter : Character {
 
-    int id;
+    public int id;
     Functions func;
     bool hasFunction;
 

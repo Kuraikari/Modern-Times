@@ -9,6 +9,8 @@ using UnityEngine;
  * This is the EnemyManager class. This class manages the enemies. E.g. *
  * Creating the lists for them. Still needs some improvements though.   *
  ************************************************************************/
+
+ [System.Serializable]
 public class EnemyManager {
 
     public List<Enemy> enemies;
@@ -23,6 +25,7 @@ public class EnemyManager {
     public void createNewEnemy(string name, float exp, int lvl)
     {
         enemies.Add(new Enemy(enemies.Count + 1, name, exp, lvl));
+        Serializer.Save<List<Enemy>>("enemies.txt", enemies);
     }
 
     public Enemy getEnemyOfList(string name)

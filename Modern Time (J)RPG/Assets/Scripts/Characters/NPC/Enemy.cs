@@ -9,13 +9,14 @@ using System.Collections;
  * This is the Enemy class. Here is everything related to the enemies'  *
  * logic. Some things still need to changed though...                   *
  ************************************************************************/
+
+ [System.Serializable]
 public class Enemy : NonPlayerCharacter
 {
-    public int id;
-    public new string name;
     public float givenEXP;
-    public new int level;
     public float baseHealth;
+
+    public AbilityManager am = new AbilityManager(); 
 
     public Enemy(int id, string name, float givenEXP, int level)
     {

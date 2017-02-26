@@ -11,6 +11,8 @@ using System;
  * This is the Player class. Here is everything related to the player's *
  * logic. Some things still need to changed though...                   *
  ************************************************************************/
+
+[System.Serializable]
 public class Player : Character {
 
     TechnicalFunctions tech;
@@ -30,7 +32,7 @@ public class Player : Character {
         physicalPower = 0;
     }
 
-    public void setAbility()
+    public void setAbilities()
     {
         
         abilities.Add(am.attackAbility.Find(x => x.name.Contains("HIT")));

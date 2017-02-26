@@ -8,6 +8,8 @@ using System.Collections;
  * This is the super Class for every freakin' Character, even the       *
  * player get's involved with this one... Have fun encrypting this      *
  ************************************************************************/
+
+[System.Serializable]
 public class Character {
 
     //Attributes
