@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityManager : MonoBehaviour {
+public class AbilityManager{
 
     //Abilities
     public List<AttackAbillity> attackAbility;
@@ -15,11 +15,6 @@ public class AbilityManager : MonoBehaviour {
     public Character chara;
 
     public float outputDMG;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 
     public void loadAbilities()
     {
@@ -130,9 +125,4 @@ public class AbilityManager : MonoBehaviour {
             }
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

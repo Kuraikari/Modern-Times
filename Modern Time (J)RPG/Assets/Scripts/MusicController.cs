@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class MusicController : MonoBehaviour {
-    MusicPlayer mp = new MusicPlayer();
     [Range(0, 10)]
     public int x, y;
     [Space(20)]
@@ -17,7 +16,7 @@ public class MusicController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         index = Random.Range(x, y);
-        MusicManager.play(songs[index], 1f, 0.5f);
+        MusicManager.play(songs[index], 0f, 0f);
         
 
     }
