@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="5">
  <tileset firstgid="1" name="tileset2" tilewidth="32" tileheight="32" tilecount="128" columns="8">
   <image source="../Sprites/tileset2.png" width="256" height="512"/>
   <terraintypes>
@@ -137,7 +137,7 @@
 50,51,52,0,0,0,0,0,0,0,
 0,0,0,54,54,54,0,0,54,54,
 0,0,0,0,0,0,50,52,0,0,
-23,22,0,0,0,0,16,16,0,0,
+23,0,0,0,0,0,16,16,0,0,
 0,0,0,0,0,0,0,233,234,235,
 0,0,0,0,0,0,0,241,242,243,
 0,0,0,0,0,0,0,0,0,0,
@@ -186,4 +186,9 @@
 131,0,0,0,0,0,0,0,0,129
 </data>
  </layer>
+ <objectgroup name="Spawn">
+  <object id="1" gid="22" x="31" y="195" width="32" height="32"/>
+  <object id="2" gid="3" x="128" y="320" width="32" height="32"/>
+  <object id="4" gid="1" x="160" y="320" width="32" height="32"/>
+ </objectgroup>
 </map>

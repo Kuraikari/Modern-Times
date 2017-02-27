@@ -172,6 +172,8 @@
     <None Include="Assets\Plugins\RPGTALK\Demo\Talks\DemosText.txt" />
     <None Include="Assets\Plugins\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Imported\Street.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Your House - 1st.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Your House - Ground.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Imported\classroom.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\schoolbuilding.tiled2unity.xml" />

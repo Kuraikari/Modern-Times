@@ -17,8 +17,8 @@ public class PlayerController : MonoBehaviour
     public void Start()
     {
 
-        speed = 5f;
-        boost = 7.5f;
+        speed = 2.5f;
+        boost = 4.5f;
 
         r2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -44,15 +44,28 @@ public class PlayerController : MonoBehaviour
 
         r2d.transform.position += new Vector3(x, y);
 
+
         if (Input.GetKeyDown(KeyCode.S))
-        { 
+        {
             anim.SetBool("Facing Down", true);
             anim.SetBool("Facing Up", false);
+            anim.SetBool("Doing nothing", false);
+            anim.speed = 1f;
         }
+
         else if (Input.GetKeyDown(KeyCode.W))
-        { 
+        {
             anim.SetBool("Facing Up", true);
             anim.SetBool("Facing Down", false);
+            anim.SetBool("Doing nothing", false);
+            anim.speed = 1f;
+        }
+        else if(!(Input.anyKeyDown) && y == 0)
+        {
+            anim.SetBool("Doing nothing", true);
+            anim.SetBool("Facing Down", false);
+            anim.SetBool("Facing Up", false);
+            anim.speed = 0f;
         }
 
     }

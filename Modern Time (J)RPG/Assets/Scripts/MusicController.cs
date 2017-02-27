@@ -16,7 +16,8 @@ public class MusicController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         index = Random.Range(x, y);
-        MusicManager.play(songs[index], 0f, 0f);
+        if (!( GameObject.Find("Music Emitter - " + songs[index].ToString()) == MusicManager.getMusicEmitter()))
+            MusicManager.play(songs[index], 0f, 0f);
         
 
     }
