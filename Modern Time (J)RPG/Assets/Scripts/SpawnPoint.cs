@@ -7,7 +7,7 @@ public class SpawnPoint {
     public int id;
     public GameObject obj;
 
-    public SpawnPoint(int id, GameObject obj)
+    public SpawnPoint()
     {
         this.id = id;
         this.obj = obj;
