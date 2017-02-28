@@ -49,6 +49,8 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("Facing Down", true);
             anim.SetBool("Facing Up", false);
+            anim.SetBool("Facing Right", false);
+            anim.SetBool("Facing Left", false);
             anim.SetBool("Doing nothing", false);
             anim.speed = 1f;
         }
@@ -57,15 +59,36 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("Facing Up", true);
             anim.SetBool("Facing Down", false);
+            anim.SetBool("Facing Right", false);
+            anim.SetBool("Facing Left", false);
             anim.SetBool("Doing nothing", false);
             anim.speed = 1f;
         }
-        else if(!(Input.anyKeyDown) && y == 0)
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            anim.SetBool("Facing Left", true);
+            anim.SetBool("Facing Right", false);
+            anim.SetBool("Facing Up", false);
+            anim.SetBool("Facing Down", false);
+            anim.SetBool("Doing nothing", false);
+            anim.speed = 1f;
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            anim.SetBool("Facing Right", true);
+            anim.SetBool("Facing Left", false);
+            anim.SetBool("Facing Up", false);
+            anim.SetBool("Facing Down", false);
+            anim.SetBool("Doing nothing", false);
+            anim.speed = 1f;
+        }
+        else if(!(Input.anyKeyDown) && y == 0 && x == 0)
         {
             anim.SetBool("Doing nothing", true);
-            anim.SetBool("Facing Down", false);
+            anim.SetBool("Facing Left", false);
             anim.SetBool("Facing Up", false);
-            anim.speed = 0f;
+            anim.SetBool("Facing Down", false);
+            anim.SetBool("Facing Right", false);
         }
 
     }

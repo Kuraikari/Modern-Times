@@ -12,24 +12,19 @@ public class SceneController : MonoBehaviour {
 
     public float xPos, yPos;
 
-    public void goToScene()
-    { 
+    public void goToScene() { 
         SceneManager.LoadScene(nameOfScene); 
     }
 
-    public void teleportTo()
-    {
+    public void teleportTo() {
         sp.obj = GameObject.Find(nameOfObject);
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.name == "Player" && isTeleport == false)
-        {
+    public void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.name == "Player" && isTeleport == false) {
             goToScene();
         }
-        else if (collision.name == "Player" && isTeleport == true)
-        {
+        else if (collision.name == "Player" && isTeleport == true) {
             teleportTo();
             collision.transform.position = sp.obj.transform.position + new Vector3(40, 0);
         }
