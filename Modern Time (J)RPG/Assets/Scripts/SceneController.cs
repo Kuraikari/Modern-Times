@@ -5,7 +5,7 @@ using System;
 public class SceneController : MonoBehaviour {
 
 
-    public bool isTeleport;
+    public enum isTeleport { (Teleport, Scene, Both };
     public string nameOfScene;
     public string nameOfObject;
     private SpawnPoint sp = new SpawnPoint();
@@ -21,12 +21,12 @@ public class SceneController : MonoBehaviour {
     }
 
     public void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.name == "Player" && isTeleport == false) {
+        if (collision.name == "Player" && (Boolean)isTeleport.Teleport == true) {
             goToScene();
         }
         else if (collision.name == "Player" && isTeleport == true) {
             teleportTo();
-            collision.transform.position = sp.obj.transform.position + new Vector3(40, 0);
+            collision.transform.position = sp.obj.transform.position + new Vector3(xPos, yPos);
         }
     }
 
