@@ -5,7 +5,9 @@ using System;
 public class SceneController : MonoBehaviour {
 
 
-    public enum isTeleport { (Teleport, Scene, Both };
+    public enum isTeleport { Teleport, Scene, Both };
+
+    public isTeleport tel;
     public string nameOfScene;
     public string nameOfObject;
     private SpawnPoint sp = new SpawnPoint();
@@ -20,13 +22,21 @@ public class SceneController : MonoBehaviour {
         sp.obj = GameObject.Find(nameOfObject);
     }
 
+
     public void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.name == "Player" && (Boolean)isTeleport.Teleport == true) {
+        if (collision.name == "Player" && tel == isTeleport.Scene) {
             goToScene();
         }
-        else if (collision.name == "Player" && isTeleport == true) {
+        else if (collision.name == "Player" && tel == isTeleport.Teleport) {
             teleportTo();
             collision.transform.position = sp.obj.transform.position + new Vector3(xPos, yPos);
+        }
+        else if (collision.name == "Player" && tel == isTeleport.Both) {
+            teleportTo();
+            goToScene();
+            S
+            collision.transform.position = sp.obj.transform.position + new Vector3(xPos, yPos);
+
         }
     }
 
