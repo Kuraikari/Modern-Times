@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenu : MonoBehaviour {
-
     //**************************************
     //For the toolbar
     int toolbarINT = 0;

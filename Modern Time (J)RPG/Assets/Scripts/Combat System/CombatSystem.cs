@@ -2,11 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.IO;
 
 public class CombatSystem : MonoBehaviour { 
 
     public AbilityManager am = new AbilityManager();
-    public Player player;
+    public Player player = new Player();
     public Waifu waifu;
     public EnemyManager em = new EnemyManager();
 
@@ -29,15 +31,19 @@ public class CombatSystem : MonoBehaviour {
 
     public void abilities()
     {
-        bool qSkill = GUI.Button(new Rect(0, 20, 50, 20), player.abilities[0].name);
-        bool wSkill = GUI.Button(new Rect(50, 40, 50, 20), player.abilities[1].name);
-        bool eSkill = GUI.Button(new Rect(0, 40, 50, 20), player.abilities[2].name);
-        bool rSkill = GUI.Button(new Rect(50, 20, 50, 20), player.abilities[3].name);
+        bool qSkill = GUI.Button(new Rect(525, 20, 50, 20), player.abilities[0].name);
+        bool wSkill = GUI.Button(new Rect(575, 40, 50, 20), player.abilities[1].name);
+        bool eSkill = GUI.Button(new Rect(525, 40, 50, 20), player.abilities[2].name);
+        bool rSkill = GUI.Button(new Rect(575, 20, 50, 20), player.abilities[3].name);
     }
 
     // Use this for initialization
     void Start () {
-        am.createEverything();
+        //am.createEverything();
+        Serializer.Load<Abillity>("attacks.txt");
+        Serializer.Load<Abillity>("globals.txt");
+        Serializer.Load<Abillity>("supports.txt");
+        Serializer.Load<Abillity>("statuses.txt");
         player.setAbilities();
 	
 	}
@@ -46,6 +52,11 @@ public class CombatSystem : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    public void escape()
+    {
+        SceneManager.UnloadSceneAsync("fighting_screen");
+    }
 
     public void OnGUI()
     {

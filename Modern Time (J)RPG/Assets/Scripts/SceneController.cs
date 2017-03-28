@@ -34,7 +34,7 @@ public class SceneController : MonoBehaviour {
         else if (collision.name == "Player" && tel == isTeleport.Both) {
             teleportTo();
             goToScene();
-            S
+            
             collision.transform.position = sp.obj.transform.position + new Vector3(xPos, yPos);
 
         }
