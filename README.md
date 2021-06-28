@@ -10,7 +10,7 @@ This README would normally document whatever steps are necessary to get your app
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### Meta ###
-* Author: Zian Wermelinger aka "Kuraikari"
+* Author: "Kuraikari"
 * Project Name: Modern Times (J)RPG
 * Project Type: 2d-(J)RPG with Dating- and Economy-Simulation parts
 * Language: English and later on maybe Japanese and/or German.
